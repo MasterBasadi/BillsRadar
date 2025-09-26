@@ -7,7 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 
 all_matches = []  ## list that will contain info for all matches
-current_year = int(datetime.now().year)
+current_year = int(datetime.now().year) ## current year
 
 for year in range(current_year, (current_year - 5),
                   -1):  ## iterates from the current year down to 5 years ago. Ex. 2025 - 2021
@@ -15,62 +15,45 @@ for year in range(current_year, (current_year - 5),
     header = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
     }
-    print(f"<———{standings_url}———>")
+    print(f"{standings_url}")
 
-    try:
-        data = requests.get(standings_url, headers=header)  ## getting HTML from the website
-        if data.status_code != 200:  # check for errors
-            print(f"<———ERROR: Status code {data.status_code} for {year}———>")
-            continue
-        print("<———GOT DATA———>")
-        soup = BeautifulSoup(data.text, features="html.parser")  ## parsing html
-        print("<———SOUPED———>")
-        afc_standings_table = soup.select('table.stats_table')[0]  ## get afc & nfc tables
-        nfc_standings_table = soup.select('table.stats_table')[1]
+    data = requests.get(standings_url, headers=header)  ## getting HTML from the website
+    soup = BeautifulSoup(data.text, features="html.parser")  ## parsing html
+    afc_standings_table = soup.select('table.stats_table')[0]  ## get afc & nfc tables
+    nfc_standings_table = soup.select('table.stats_table')[1]
 
-        afc_links = afc_standings_table.find_all('a')  ## looking for anchors in the HTML to help find links
-        nfc_links = nfc_standings_table.find_all('a')
+    afc_links = afc_standings_table.find_all('a')  ## looking for anchors in the HTML to help find links
+    nfc_links = nfc_standings_table.find_all('a')
 
-        afc_links = [al.get("href") for al in afc_links]  ## get the hrefs from the anchors to get the urls
-        afc_links = [al for al in afc_links if '/teams/' in al]  ## filter only for teams
+    afc_links = [al.get("href") for al in afc_links]  ## get the hrefs from the anchors to get the urls
+    afc_links = [al for al in afc_links if '/teams/' in al]  ## filter only for teams
 
-        nfc_links = [nl.get("href") for nl in nfc_links]
-        nfc_links = [nl for nl in nfc_links if '/teams/' in nl]
+    nfc_links = [nl.get("href") for nl in nfc_links]
+    nfc_links = [nl for nl in nfc_links if '/teams/' in nl]
 
-        links = afc_links + nfc_links  ## combine afc and nfc links
-        teams_urls = [f"https://www.pro-football-reference.com{l}" for l in links]  ## specific links for each team
-        time.sleep(9)  ## delay loop for 9 seconds to prevent being banned from scraping
+    links = afc_links + nfc_links  ## combine afc and nfc links
+    teams_urls = [f"https://www.pro-football-reference.com{l}" for l in links]  ## specific links for each team
+    time.sleep(8)  ## delay loop for 8 seconds to prevent being banned from scraping
 
-        for team_url in teams_urls:  ## iterate through team urls
-            team_abbreviation = team_url.split('/')[-2].upper()  ## get team abbreviations Ex. BUF
-            try:
-                team_data = requests.get(team_url, headers=header)
-                if team_data.status_code != 200:  # Check for errors on team page
-                    print(f"<———ERROR: Status code {team_data.status_code} for {team_abbreviation}———>")
-                    continue
-
-                matches = pd.read_html(StringIO(team_data.text), match="Schedule & Game Results")
-                if matches:  # make sure we got some data
-                    team_schedule = matches[0]  # get the first DataFrame
-                    team_schedule['Team'] = team_abbreviation  # add metadata columns
-                    team_schedule['Season'] = year
-                    all_matches.append(team_schedule)  ## append to the main list
-                    print(f"{team_abbreviation} {year}\n")
-                else:
-                    print(f"<———NO SCHEDULE DATA FOR {team_abbreviation}———>")
-                time.sleep(9)  ## delay loop for 9 seconds to prevent being banned from scraping
-
-            except ValueError as e:  ## if there's empty data for either the ongoing season or a Bye Week
+    for team_url in teams_urls:  ## iterate through team urls
+        team_abbreviation = team_url.split('/')[-2].upper()  ## get team abbreviations Ex. BUF
+        try:
+            team_data = requests.get(team_url, headers=header)
+            matches = pd.read_html(StringIO(team_data.text), match="Schedule & Game Results")
+            if matches:  # make sure we got some data
+                team_schedule = matches[0]  # get the first DataFrame
+                team_schedule['Team'] = team_abbreviation  # add metadata columns
+                team_schedule['Season'] = year
+                all_matches.append(team_schedule)  ## append to the main list
+                print(f"{team_abbreviation} {year}")
+            else:
                 print(f"<———NO SCHEDULE DATA FOR {team_abbreviation}———>")
-                continue
-            except Exception as e:
-                print(f"<———ERROR WITH {team_abbreviation}: {e}———>")
-                continue
-    except Exception as e:
-        print(f"<———ERROR PROCESSING YEAR {year}: {e}———>")
-        continue
+            time.sleep(8)  ## delay loop for 8 seconds to prevent being banned from scraping
+        except ValueError as e:  ## if there's empty data for either the ongoing season or a Bye Week
+            print(f"<———NO SCHEDULE DATA FOR {team_abbreviation}———>")
+            continue
 
-column_mapping = { ## create a mapping of old names to clean names
+column_mapping = {  ## create a mapping of old names to clean names
     'unnamed:_0_level_0_week': 'week',
     'unnamed:_1_level_0_day': 'day',
     'unnamed:_2_level_0_date': 'date',
@@ -102,16 +85,12 @@ column_mapping = { ## create a mapping of old names to clean names
 if all_matches:  ## concatenate the DataFrames
     match_df = pd.concat(all_matches, ignore_index=True)  ## format into a dataframe
     if isinstance(match_df.columns, pd.MultiIndex):
-        match_df.columns = ['_'.join(col).strip('_') for col in
-                            match_df.columns.values]  # flatten MultiIndex columns by joining the levels
+        match_df.columns = ['_'.join(col).strip('_') for col in match_df.columns.values]  # flatten MultiIndex columns by joining the levels
     else:
         match_df.columns = match_df.columns.astype(str)  ## convert regular columns to strings
-    match_df.columns = [col.lower().replace(' ', '_').replace('(', '').replace(')', '') for col in
-                        match_df.columns]  ## formating columns
-    match_df = match_df.rename(columns=column_mapping) ## apply the mapping
-
-    cols = list(match_df.columns) ## move team and season columns to the front
-    cols.remove('team')
-    cols.remove('season')
-    match_df = match_df[['team', 'season'] + cols]
+    match_df.columns = [col.lower().replace(' ', '_').replace('(', '').replace(')', '') for col in match_df.columns]  ## formating columns
+    match_df = match_df.rename(columns=column_mapping)  ## apply the mapping
+    desired_order = ['team', 'season', 'week', 'record', 'day', 'date', 'time', 'opponent', 'team_score', 'opponent_score']  # define the desired column order
+    remaining_cols = [col for col in match_df.columns if col not in desired_order]
+    match_df = match_df[desired_order + remaining_cols]
     match_df.to_csv("matches.csv", index=False)  ## export to csv file
