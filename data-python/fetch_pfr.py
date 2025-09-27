@@ -90,7 +90,7 @@ if all_matches:  ## concatenate the DataFrames
         match_df.columns = match_df.columns.astype(str)  ## convert regular columns to strings
     match_df.columns = [col.lower().replace(' ', '_').replace('(', '').replace(')', '') for col in match_df.columns]  ## formating columns
     match_df = match_df.rename(columns=column_mapping)  ## apply the mapping
-    desired_order = ['team', 'season', 'week', 'record', 'day', 'date', 'time', 'opponent', 'team_score', 'opponent_score']  # define the desired column order
-    remaining_cols = [col for col in match_df.columns if col not in desired_order]
-    match_df = match_df[desired_order + remaining_cols]
-    match_df.to_csv("matches.csv", index=False)  ## export to csv file
+    # desired_order = ['team', 'season', 'week', 'record', 'day', 'date', 'time', 'opponent', 'team_score', 'opponent_score']  # define the desired column order
+    # remaining_cols = [col for col in match_df.columns if col not in desired_order]
+    # match_df = match_df[desired_order + remaining_cols]
+    match_df.to_csv("2021_2024_matches.csv", index=False)  ## export to csv file
