@@ -1,3 +1,12 @@
+# NFLRadar Prediction Model
+# Author: Basit Umair
+# Description:
+# This script trains an XGBoost model on historical NFL data (5 years)
+# to generate team score predictions and win probabilities.
+# Used as the backend prediction module for the NFLRadar
+# web app (Spring Boot + React).
+# Inspired by DataQuest tutorial
+
 from sklearn.multioutput import MultiOutputRegressor
 from xgboost import XGBRegressor
 import pandas as pd
@@ -53,7 +62,7 @@ def make_predictions(data: pd.DataFrame, predictors, targets):
 
     train = train.dropna(subset=targets) # target rows must exist in training, predictors must exist in train+test
     ## xgboost regressor model fitted with basic params
-    base = XGBRegressor(n_estimators=400,max_depth=6,learning_rate=0.05, subsample=0.8,colsample_bytree=0.8,reg_lambda=1.0, objective="reg:squarederror",random_state=1,n_jobs=-1)
+    base = XGBRegressor(n_estimators=100,max_depth=6,learning_rate=0.01,subsample=0.7,colsample_bytree=0.8,reg_lambda=1.0, objective="reg:squarederror",random_state=1,n_jobs=-1)
     model = MultiOutputRegressor(base).fit(train[predictors], train[targets])
 
     preds = model.predict(test[predictors]) ## run predictions
@@ -81,7 +90,7 @@ def main():
             return x
         x = str(x)
         return x if x in abbr2full else full2abbr.get(x, x)
-    matches["team_key"] = matches["team"].map(to_abbr) ## abbreviate
+    matches["team_key"] = matches["team"].map(to_abbr) ## abbreviate to differentiate to make it easier for the model
     matches["opponent_key"] = matches["opponent"].map(to_abbr)
 
     matches["team_key"] = matches["team_key"].astype(str) ## abr to str
@@ -115,12 +124,25 @@ def main():
     ## opp rolling
     matches_rolling = matches_rolling.merge(opp_view, on=["game_key", "opponent_key"], how="left", validate="many_to_one")
 
+    def add_rest(rest): ## rest days
+        rest = rest.sort_values("kickoff_at").copy()
+        rest["prev_game_at"] = rest["kickoff_at"].shift(1)
+        rest["rest_days"] = (rest["kickoff_at"] - rest["prev_game_at"]).dt.days
+        rest["rest_days"] = rest["rest_days"].clip(lower=3, upper=21)  # short week to long bye
+        return rest
+
+    matches_rolling = (matches_rolling.groupby("team_key", group_keys=False).apply(add_rest))
+    ## opponent rest
+    opp_rest = (matches_rolling[["game_key", "team_key", "rest_days"]].rename(columns={"team_key": "opponent_key", "rest_days": "rest_days_opp"}))
+    matches_rolling = matches_rolling.merge(opp_rest, on=["game_key", "opponent_key"], how="left")
+    rest_predictors = ["rest_days", "rest_days_opp"]
+
     base_predictors = ["home_away_code","opp_code","day_code","hour"] ## predictors now include opponent rolling cols too
-    predictors = base_predictors + new_cols + [c + opp_suffix for c in new_cols]
+    predictors = base_predictors + new_cols + [c + opp_suffix for c in new_cols] + rest_predictors
     targets = ["team_score","opponent_score"]
 
-    out, acc = make_predictions(matches_rolling, predictors, targets) ## show accuracy stats
-    print("Derived win accuracy from score preds:", f"{acc:.2%}" if acc==acc else "nan")
+    out, acc = make_predictions(matches_rolling, predictors, targets) ## run the XGB model
+    print("Derived win accuracy from score preds:", f"{acc:.0%}" if acc==acc else "nan") ## show accuracy results
 
     mapping = MissingDict(**map_values) ## map cols for pd
     out["team_full"] = out["team"].map(mapping)
@@ -129,10 +151,7 @@ def main():
     out["day"] = out["kickoff_at"].dt.day_name().str[:3]
     out["pred_result"] = (out["pred_team_score"] > out["pred_opponent_score"]).map({True:"W", False:"L"})
 
-    pred_cols = [c for c in out.columns if c.startswith("pred_")]
-    present_cols = [c for c in cols if c in out.columns]  # be defensive
-    final_cols = ["season", "week", "day", "kickoff_at", "pred_result", "team_full", "opponent_full"] + present_cols + pred_cols
-
+    final_cols = ["season", "week", "day", "kickoff_at", "pred_result", "team", "opponent", "pred_team_score", "pred_opponent_score"] ## the cols being shown in the final .csv
     team_predictions = (out[final_cols].rename(columns={"team_full":"team","opponent_full":"opponent"}).sort_values(["team","season","week","kickoff_at"]).reset_index(drop=True))
 
     os.makedirs("out", exist_ok=True) ## export .csv
@@ -141,4 +160,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-## Inspired by DataQuest Tutorial
