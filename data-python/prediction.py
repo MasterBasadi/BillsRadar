@@ -1,5 +1,4 @@
 from sklearn.multioutput import MultiOutputRegressor
-from sklearn.metrics import mean_absolute_error, r2_score
 from xgboost import XGBRegressor
 import pandas as pd
 import numpy as np
@@ -35,88 +34,111 @@ class MissingDict(dict): ## renaming abbreviations to full team names ex. Buff -
     __missing__ = lambda self, key: key
 
 def rolling_average(group, cols, new_cols, league_means=None):
-    grp = group.sort_values("kickoff_at").copy()
-    past3 = grp[cols].rolling(3, min_periods=1).mean().shift(1) ## prior-only 3-game mean
-    team_prior = grp[cols].expanding(min_periods=1).mean().shift(1) ## prior-only team expanding mean
+    grp = group.sort_values("kickoff_at").copy() ## prior-only features (leak-free
+    past3 = grp[cols].rolling(3, min_periods=1).mean().shift(1) ## 3-game rolling mean, shifted(1)
+    team_prior = grp[cols].expanding(min_periods=1).mean().shift(1) ## expanding team mean, shifted(1)
     tmp = past3.fillna(team_prior)
-    if league_means is not None:
-        tmp = tmp.fillna(value=league_means) ## league_means should be a series indexed by col names
+    if league_means is not None: ## fall back to TRAIN league means if still NA
+        tmp = tmp.fillna(value=league_means)
     grp[new_cols] = tmp.values
     return grp
 
-
 def make_predictions(data: pd.DataFrame, predictors, targets):
-    train = data[data["kickoff_at"] < "2024-09-07"].copy() ## training cutoff
-    test  = data[data["kickoff_at"] > "2024-09-08"].copy() ## testing cutoff
-    for df in (train, test):
-        df[predictors] = df[predictors].replace([np.inf,-np.inf], np.nan) ## fix bad data
-    train = train.dropna(subset=predictors)
-    y_ok = train[targets].notna().all(axis=1)
-    if (~y_ok).sum(): print(f"[make_predictions] Dropping {(~y_ok).sum()} train rows with NaN targets.")
-    train = train.loc[y_ok]
-    test  = test.dropna(subset=predictors)
+    cut = pd.Timestamp("2024-09-07")
+    train = data[data["kickoff_at"] <= cut].copy() ## training cutoff
+    test  = data[data["kickoff_at"] >  cut].copy() ## testing cutoff
+
+    for df in (train, test): ## fix bad data
+        df[predictors] = df[predictors].replace([np.inf,-np.inf], np.nan)
+
+    train = train.dropna(subset=targets) # target rows must exist in training, predictors must exist in train+test
     ## xgboost regressor model fitted with basic params
-    base = XGBRegressor(n_estimators=400,max_depth=6,learning_rate=0.05,subsample=0.8,colsample_bytree=0.8,reg_lambda=1.0,random_state=1,n_jobs=-1)
+    base = XGBRegressor(n_estimators=400,max_depth=6,learning_rate=0.05, subsample=0.8,colsample_bytree=0.8,reg_lambda=1.0, objective="reg:squarederror",random_state=1,n_jobs=-1)
     model = MultiOutputRegressor(base).fit(train[predictors], train[targets])
 
-    preds = model.predict(test[predictors])
-    preds_df = pd.DataFrame(preds, columns=[f"pred_{t}" for t in targets], index=test.index)
+    preds = model.predict(test[predictors]) ## run predictions
+    preds_df = pd.DataFrame(preds, columns=[f"pred_{t}" for t in targets], index=test.index) ## pred_columns
 
-    eval_mask = test[targets].notna().all(axis=1)
-    mae = {t: float(mean_absolute_error(test.loc[eval_mask, t], preds_df.loc[eval_mask, f"pred_{t}"])) if eval_mask.any() else float("nan") for t in targets} ## evaluate mae and r^2 per target
-    r2 = {t: float(r2_score(test.loc[eval_mask, t], preds_df.loc[eval_mask, f"pred_{t}"])) if eval_mask.any() else float("nan") for t in targets}
+    preds_df["pred_win"] = (preds_df["pred_team_score"] > preds_df["pred_opponent_score"]).astype(int) ## make the predictions dataframe
+    out = pd.concat([test[["boxscore_link","season","week","kickoff_at","team","opponent","home_away","day_code"] + targets].reset_index(drop=True), preds_df.reset_index(drop=True)], axis=1) ## add to main dataframe
 
-    preds_df["pred_win"] = (preds_df["pred_team_score"] > preds_df["pred_opponent_score"]).astype(int) ## attach columns from test for inspection
-    out = pd.concat([ test[["boxscore_link","season","week","kickoff_at","team","opponent","home_away","day_code"] + targets].reset_index(drop=True), preds_df.reset_index(drop=True) ], axis=1)
-
-    actual_win = (out["team_score"] > out["opponent_score"]).astype(int)
+    actual_win = (out["team_score"] > out["opponent_score"]).astype(int) ## prediction accuracies
     win_acc = float((out["pred_win"] == actual_win).mean()) if len(out) else float("nan")
-    return out, mae, r2, win_acc
+    return out, win_acc ## return the prediction's pd and win accuracy
 
 def main():
     warnings.simplefilter("ignore", category=FutureWarning)
-    matches = pd.read_csv("data/2021_2024_matches.csv")
+    matches = pd.read_csv("data/2021_2024_matches.csv") ## load the .csv file containing NFL matches
     matches[numeric_cols] = matches[numeric_cols].apply(pd.to_numeric, errors="coerce") ## convert to numeric values
 
-    dt_str = (matches["date"].astype(str).str.strip() + " " + matches["season"].astype(str) + " " + matches["time"].astype(str).str.replace("ET","",regex=False).str.strip())
-    matches["kickoff_at"] = pd.to_datetime(dt_str, format="%B %d %Y %I:%M%p", errors="coerce") ## convert to a datetime
+    dt_str = (matches["date"].astype(str).str.strip() + " " + matches["season"].astype(str) + " " + matches["time"].astype(str).str.replace("ET","",regex=False).str.strip()) ## convert kickoff to a proper date string
+    matches["kickoff_at"] = pd.to_datetime(dt_str, format="%B %d %Y %I:%M%p", errors="coerce")
+
+    abbr2full = map_values ## normalize names so merges work
+    full2abbr = {v: k for k, v in map_values.items()}
+    def to_abbr(x):
+        if pd.isna(x):
+            return x
+        x = str(x)
+        return x if x in abbr2full else full2abbr.get(x, x)
+    matches["team_key"] = matches["team"].map(to_abbr) ## abbreviate
+    matches["opponent_key"] = matches["opponent"].map(to_abbr)
+
+    matches["team_key"] = matches["team_key"].astype(str) ## abr to str
+    matches["opponent_key"] = matches["opponent_key"].astype(str)
+
+    date_str = matches["kickoff_at"].dt.normalize().dt.strftime("%Y-%m-%d") ## stable game key (ordered pair + normalized date)
+    left_first = matches["team_key"] <= matches["opponent_key"]
+    pair = np.where(left_first, matches["team_key"] + "|" + matches["opponent_key"], matches["opponent_key"] + "|" + matches["team_key"]) ## pair them up
+    matches["game_key"] = pair + "|" + date_str ## game
 
     matches["home_away_code"] = matches["home_away"].astype("category").cat.codes ## converting home/away values
-    matches["opp_code"] = matches["opponent"].astype("category").cat.codes ## converting opp values
+    matches["opp_code"] = matches["opponent_key"].astype("category").cat.codes ## converting opp values
     matches["day_code"] = matches["kickoff_at"].dt.dayofweek ## convert days to ints ex. mon = 0, thu = 3, sun = 6
     matches["hour"] = matches["kickoff_at"].dt.hour ## get hour of matches as an int
     matches["target"] = (matches["result"] == "W").astype("int") ## the target to predict whether the team will win or not ex. w = 1, l = 0
 
-    league_means = matches[cols].mean(numeric_only=True).fillna(0.0) ## avg data used for predictions without proper data
+    cut = pd.Timestamp("2024-09-07") ## define train cut so league means from TRAIN ONLY
+    train_idx = matches["kickoff_at"] <= cut
+    league_means = matches.loc[train_idx, cols].mean(numeric_only=True).fillna(0.0)
+
+    new_cols = [f"{c}_rolling" for c in cols] ## make the new col names
+    matches_rolling = (matches.groupby("team_key", group_keys=False).apply(lambda t: rolling_average(t, cols, new_cols, league_means=league_means)).reset_index(drop=True)) ## keep your existing per-team prior-only rollups
+
+    opp_suffix = "_opp" ## opponent form
     new_cols = [f"{c}_rolling" for c in cols]
+    opp_view = (matches_rolling ## build opp lookup from the SAME frame using normalized keys
+        .sort_values(["kickoff_at", "game_key", "team_key"]).drop_duplicates(subset=["game_key", "team_key"], keep="last")
+        [["game_key", "team_key"] + new_cols]
+        .rename(columns={"team_key": "opponent_key", **{c: c + opp_suffix for c in new_cols}}).drop_duplicates(subset=["game_key", "opponent_key"], keep="last")
+    )
+    ## opp rolling
+    matches_rolling = matches_rolling.merge(opp_view, on=["game_key", "opponent_key"], how="left", validate="many_to_one")
 
-    matches_rolling = (matches.groupby("team", group_keys=False).apply(lambda t: rolling_average(t, cols, new_cols, league_means=league_means)).reset_index(drop=True))
+    base_predictors = ["home_away_code","opp_code","day_code","hour"] ## predictors now include opponent rolling cols too
+    predictors = base_predictors + new_cols + [c + opp_suffix for c in new_cols]
+    targets = ["team_score","opponent_score"]
 
-    base_predictors = ["home_away_code","opp_code","day_code","hour"] ## predictors
-    predictors = base_predictors + new_cols
+    out, acc = make_predictions(matches_rolling, predictors, targets) ## show accuracy stats
+    print("Derived win accuracy from score preds:", f"{acc:.2%}" if acc==acc else "nan")
 
-    out, mae, r2, acc = make_predictions(matches_rolling, predictors, cols) ## fit/predict
-    print("MAE per target:", mae)
-    print("R2 per target :", r2)
-    print("Derived win accuracy from score preds:", round(acc, 2))
-
-    mapping = MissingDict(**map_values) ## map team codes to full names and merge for convenience
-    out["team_full"] = out["team"].map(mapping) ## map if it's still an abbreviation
+    mapping = MissingDict(**map_values) ## map cols for pd
+    out["team_full"] = out["team"].map(mapping)
     out["opponent_full"] = out["opponent"].map(mapping)
-    out["week"] = pd.to_numeric(out["week"], errors="coerce") ## sort weeks numerically
+    out["week"] = pd.to_numeric(out["week"], errors="coerce")
     out["day"] = out["kickoff_at"].dt.day_name().str[:3]
     out["pred_result"] = (out["pred_team_score"] > out["pred_opponent_score"]).map({True:"W", False:"L"})
 
     pred_cols = [c for c in out.columns if c.startswith("pred_")]
+    present_cols = [c for c in cols if c in out.columns]  # be defensive
+    final_cols = ["season", "week", "day", "kickoff_at", "pred_result", "team_full", "opponent_full"] + present_cols + pred_cols
 
-    final_cols = ["season","week","day","kickoff_at","pred_result","team_full","opponent_full"] + cols + pred_cols
     team_predictions = (out[final_cols].rename(columns={"team_full":"team","opponent_full":"opponent"}).sort_values(["team","season","week","kickoff_at"]).reset_index(drop=True))
 
-    os.makedirs("out", exist_ok=True)
-    team_predictions.to_csv("out/team_predictions.csv", index=False) ## export to csv without index column
+    os.makedirs("out", exist_ok=True) ## export .csv
+    team_predictions.to_csv("out/nfl_predictions.csv", index=False)
     print("Rows exported:", len(team_predictions))
 
 if __name__ == "__main__":
     main()
-
 ## Inspired by DataQuest Tutorial
