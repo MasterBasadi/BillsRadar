@@ -1,509 +1,509 @@
-season,week,day,kickoff_at,pred_result,team,opponent,team_score,opponent_score,pred_team_score,pred_opponent_score,pred_win,pred_result
-2024,1.0,Sun,2024-09-08 13:00:00,L,Arizona Cardinals,Buffalo Bills,28.0,34.0,23.158234,23.937136,0,L
-2024,2.0,Sun,2024-09-15 16:05:00,W,Arizona Cardinals,Los Angeles Rams,41.0,10.0,24.404356,22.165022,1,W
-2024,3.0,Sun,2024-09-22 16:25:00,W,Arizona Cardinals,Detroit Lions,13.0,20.0,21.632393,16.322067,1,W
-2024,4.0,Sun,2024-09-29 16:05:00,W,Arizona Cardinals,Washington Commanders,14.0,42.0,26.767506,17.714346,1,W
-2024,5.0,Sun,2024-10-06 16:05:00,L,Arizona Cardinals,San Francisco 49ers,24.0,23.0,23.449417,28.725965,0,L
-2024,6.0,Sun,2024-10-13 13:00:00,L,Arizona Cardinals,Green Bay Packers,13.0,34.0,20.083977,27.474655,0,L
-2024,7.0,Mon,2024-10-21 21:00:00,L,Arizona Cardinals,Los Angeles Chargers,17.0,15.0,20.396614,20.577753,0,L
-2024,8.0,Sun,2024-10-27 13:00:00,W,Arizona Cardinals,Miami Dolphins,28.0,27.0,18.0844,16.845448,1,W
-2024,9.0,Sun,2024-11-03 16:05:00,L,Arizona Cardinals,Chicago Bears,29.0,9.0,21.33771,23.423458,0,L
-2024,10.0,Sun,2024-11-10 16:25:00,W,Arizona Cardinals,New York Jets,31.0,6.0,28.38878,18.074318,1,W
-2024,12.0,Sun,2024-11-24 16:25:00,W,Arizona Cardinals,Seattle Seahawks,6.0,16.0,24.820257,21.097677,1,W
-2024,13.0,Sun,2024-12-01 13:00:00,L,Arizona Cardinals,Minnesota Vikings,22.0,23.0,21.314808,23.225044,0,L
-2024,14.0,Sun,2024-12-08 16:05:00,W,Arizona Cardinals,Seattle Seahawks,18.0,30.0,25.393692,22.596987,1,W
-2024,15.0,Sun,2024-12-15 16:25:00,W,Arizona Cardinals,New England Patriots,30.0,17.0,21.195951,20.677843,1,W
-2024,16.0,Sun,2024-12-22 13:00:00,W,Arizona Cardinals,Carolina Panthers,30.0,36.0,28.913528,20.290226,1,W
-2024,17.0,Sat,2024-12-28 20:10:00,L,Arizona Cardinals,Los Angeles Rams,9.0,13.0,24.431067,25.82442,0,L
-2024,1.0,Sun,2024-09-08 13:00:00,W,Atlanta Falcons,Pittsburgh Steelers,10.0,18.0,26.89607,24.047369,1,W
-2024,2.0,Mon,2024-09-16 20:15:00,L,Atlanta Falcons,Philadelphia Eagles,22.0,21.0,20.966059,31.050064,0,L
-2024,3.0,Sun,2024-09-22 20:20:00,W,Atlanta Falcons,Kansas City Chiefs,17.0,22.0,24.110132,19.798862,1,W
-2024,4.0,Sun,2024-09-29 13:00:00,L,Atlanta Falcons,New Orleans Saints,26.0,24.0,21.483276,22.62806,0,L
-2024,5.0,Thu,2024-10-03 20:15:00,L,Atlanta Falcons,Tampa Bay Buccaneers,36.0,30.0,22.475008,24.69411,0,L
-2024,6.0,Sun,2024-10-13 16:25:00,W,Atlanta Falcons,Carolina Panthers,38.0,20.0,20.582,19.786213,1,W
-2024,7.0,Sun,2024-10-20 13:00:00,W,Atlanta Falcons,Seattle Seahawks,14.0,34.0,24.958763,15.368606,1,W
-2024,8.0,Sun,2024-10-27 13:00:00,W,Atlanta Falcons,Tampa Bay Buccaneers,31.0,26.0,17.88015,17.234367,1,W
-2024,9.0,Sun,2024-11-03 13:00:00,W,Atlanta Falcons,Dallas Cowboys,27.0,21.0,25.17084,18.382624,1,W
-2024,10.0,Sun,2024-11-10 13:00:00,W,Atlanta Falcons,New Orleans Saints,17.0,20.0,22.113823,15.312862,1,W
-2024,11.0,Sun,2024-11-17 16:05:00,W,Atlanta Falcons,Denver Broncos,6.0,38.0,28.274328,23.46117,1,W
-2024,13.0,Sun,2024-12-01 13:00:00,L,Atlanta Falcons,Los Angeles Chargers,13.0,17.0,22.423176,25.104534,0,L
-2024,14.0,Sun,2024-12-08 13:00:00,L,Atlanta Falcons,Minnesota Vikings,21.0,42.0,21.462051,30.684706,0,L
-2024,15.0,Mon,2024-12-16 20:30:00,L,Atlanta Falcons,Las Vegas Raiders,15.0,9.0,18.9375,21.301416,0,L
-2024,16.0,Sun,2024-12-22 13:00:00,W,Atlanta Falcons,New York Giants,34.0,7.0,23.123566,16.676672,1,W
-2024,17.0,Sun,2024-12-29 20:20:00,L,Atlanta Falcons,Washington Commanders,24.0,30.0,23.701887,26.207209,0,L
-2024,2.0,Sun,2024-09-15 13:00:00,W,Baltimore Ravens,Las Vegas Raiders,23.0,26.0,29.719881,18.365175,1,W
-2024,3.0,Sun,2024-09-22 16:25:00,L,Baltimore Ravens,Dallas Cowboys,28.0,25.0,21.247425,23.363977,0,L
-2024,4.0,Sun,2024-09-29 20:20:00,L,Baltimore Ravens,Buffalo Bills,35.0,10.0,23.573467,27.143393,0,L
-2024,5.0,Sun,2024-10-06 13:00:00,W,Baltimore Ravens,Cincinnati Bengals,41.0,38.0,24.36261,23.440765,1,W
-2024,6.0,Sun,2024-10-13 13:00:00,W,Baltimore Ravens,Washington Commanders,30.0,23.0,32.403114,22.42345,1,W
-2024,7.0,Mon,2024-10-21 20:15:00,W,Baltimore Ravens,Tampa Bay Buccaneers,41.0,31.0,27.045189,27.030134,1,W
-2024,8.0,Sun,2024-10-27 13:00:00,W,Baltimore Ravens,Cleveland Browns,24.0,29.0,25.140295,19.25962,1,W
-2024,9.0,Sun,2024-11-03 13:00:00,W,Baltimore Ravens,Denver Broncos,41.0,10.0,27.111752,18.231237,1,W
-2024,10.0,Thu,2024-11-07 20:15:00,L,Baltimore Ravens,Cincinnati Bengals,35.0,34.0,23.757437,24.368586,0,L
-2024,11.0,Sun,2024-11-17 13:00:00,L,Baltimore Ravens,Pittsburgh Steelers,16.0,18.0,24.297466,29.004316,0,L
-2024,12.0,Mon,2024-11-25 20:15:00,L,Baltimore Ravens,Los Angeles Chargers,30.0,23.0,21.71751,25.277245,0,L
-2024,13.0,Sun,2024-12-01 16:25:00,L,Baltimore Ravens,Philadelphia Eagles,19.0,24.0,24.26462,31.22534,0,L
-2024,15.0,Sun,2024-12-15 13:00:00,W,Baltimore Ravens,New York Giants,35.0,14.0,24.590618,19.16274,1,W
-2024,16.0,Sat,2024-12-21 16:30:00,W,Baltimore Ravens,Pittsburgh Steelers,34.0,17.0,25.313902,18.88602,1,W
-2024,17.0,Wed,2024-12-25 16:30:00,W,Baltimore Ravens,Houston Texans,31.0,2.0,25.278984,25.100756,1,W
-2024,1.0,Sun,2024-09-08 13:00:00,L,Buffalo Bills,Arizona Cardinals,34.0,28.0,23.372978,24.745964,0,L
-2024,2.0,Thu,2024-09-12 20:15:00,W,Buffalo Bills,Miami Dolphins,31.0,10.0,18.549835,18.407194,1,W
-2024,3.0,Mon,2024-09-23 19:30:00,W,Buffalo Bills,Jacksonville Jaguars,47.0,10.0,25.757784,22.573133,1,W
-2024,4.0,Sun,2024-09-29 20:20:00,W,Buffalo Bills,Baltimore Ravens,10.0,35.0,25.249815,25.069523,1,W
-2024,5.0,Sun,2024-10-06 13:00:00,W,Buffalo Bills,Houston Texans,20.0,23.0,23.076668,21.14076,1,W
-2024,6.0,Mon,2024-10-14 20:15:00,W,Buffalo Bills,New York Jets,23.0,20.0,19.831202,17.334785,1,W
-2024,7.0,Sun,2024-10-20 13:00:00,W,Buffalo Bills,Tennessee Titans,34.0,10.0,22.24416,19.605743,1,W
-2024,8.0,Sun,2024-10-27 16:05:00,W,Buffalo Bills,Seattle Seahawks,31.0,10.0,24.571945,21.470795,1,W
-2024,9.0,Sun,2024-11-03 13:00:00,W,Buffalo Bills,Miami Dolphins,30.0,27.0,29.304258,20.126146,1,W
-2024,10.0,Sun,2024-11-10 13:00:00,W,Buffalo Bills,Indianapolis Colts,30.0,20.0,23.841322,15.33912,1,W
-2024,11.0,Sun,2024-11-17 16:25:00,W,Buffalo Bills,Kansas City Chiefs,30.0,21.0,31.989622,23.677034,1,W
-2024,13.0,Sun,2024-12-01 20:20:00,W,Buffalo Bills,San Francisco 49ers,35.0,10.0,29.138779,22.480047,1,W
-2024,14.0,Sun,2024-12-08 16:25:00,W,Buffalo Bills,Los Angeles Rams,42.0,44.0,29.5269,25.214273,1,W
-2024,15.0,Sun,2024-12-15 16:25:00,L,Buffalo Bills,Detroit Lions,48.0,42.0,24.785606,28.027515,0,L
-2024,16.0,Sun,2024-12-22 16:25:00,L,Buffalo Bills,New England Patriots,24.0,21.0,20.865143,23.310257,0,L
-2024,17.0,Sun,2024-12-29 13:00:00,W,Buffalo Bills,New York Jets,40.0,14.0,24.548983,21.567097,1,W
-2024,1.0,Sun,2024-09-08 13:00:00,L,Carolina Panthers,New Orleans Saints,10.0,47.0,23.63731,32.498898,0,L
-2024,2.0,Sun,2024-09-15 13:00:00,L,Carolina Panthers,Los Angeles Chargers,3.0,26.0,17.202183,23.493805,0,L
-2024,3.0,Sun,2024-09-22 16:05:00,L,Carolina Panthers,Las Vegas Raiders,36.0,22.0,23.473286,26.423635,0,L
-2024,4.0,Sun,2024-09-29 13:00:00,L,Carolina Panthers,Cincinnati Bengals,24.0,34.0,18.863554,22.033657,0,L
-2024,5.0,Sun,2024-10-06 13:00:00,L,Carolina Panthers,Chicago Bears,10.0,36.0,20.86178,21.880243,0,L
-2024,6.0,Sun,2024-10-13 16:25:00,W,Carolina Panthers,Atlanta Falcons,20.0,38.0,23.780054,22.449394,1,W
-2024,7.0,Sun,2024-10-20 16:05:00,L,Carolina Panthers,Washington Commanders,7.0,40.0,24.159264,24.825705,0,L
-2024,8.0,Sun,2024-10-27 16:25:00,L,Carolina Panthers,Denver Broncos,14.0,28.0,15.952142,21.468271,0,L
-2024,9.0,Sun,2024-11-03 13:00:00,W,Carolina Panthers,New Orleans Saints,23.0,22.0,20.02759,18.632599,1,W
-2024,10.0,Sun,2024-11-10 09:30:00,L,Carolina Panthers,New York Giants,20.0,17.0,10.270504,16.65371,0,L
-2024,12.0,Sun,2024-11-24 13:00:00,L,Carolina Panthers,Kansas City Chiefs,27.0,30.0,19.15618,22.294285,0,L
-2024,13.0,Sun,2024-12-01 16:05:00,L,Carolina Panthers,Tampa Bay Buccaneers,23.0,26.0,23.328255,24.88229,0,L
-2024,14.0,Sun,2024-12-08 13:00:00,L,Carolina Panthers,Philadelphia Eagles,16.0,22.0,21.611343,28.67473,0,L
-2024,15.0,Sun,2024-12-15 13:00:00,W,Carolina Panthers,Dallas Cowboys,14.0,30.0,23.49304,22.862976,1,W
-2024,16.0,Sun,2024-12-22 13:00:00,L,Carolina Panthers,Arizona Cardinals,36.0,30.0,26.767313,27.98069,0,L
-2024,17.0,Sun,2024-12-29 13:00:00,L,Carolina Panthers,Tampa Bay Buccaneers,14.0,48.0,17.566643,29.892927,0,L
-2024,1.0,Sun,2024-09-08 13:00:00,W,Chicago Bears,Tennessee Titans,24.0,17.0,21.744888,15.875615,1,W
-2024,2.0,Sun,2024-09-15 20:20:00,L,Chicago Bears,Houston Texans,13.0,19.0,21.512138,23.36879,0,L
-2024,3.0,Sun,2024-09-22 13:00:00,L,Chicago Bears,Indianapolis Colts,16.0,21.0,14.673568,23.542042,0,L
-2024,4.0,Sun,2024-09-29 13:00:00,L,Chicago Bears,Los Angeles Rams,24.0,18.0,22.336388,25.638973,0,L
-2024,5.0,Sun,2024-10-06 13:00:00,W,Chicago Bears,Carolina Panthers,36.0,10.0,23.567833,19.350594,1,W
-2024,6.0,Sun,2024-10-13 09:30:00,W,Chicago Bears,Jacksonville Jaguars,35.0,16.0,26.090448,14.828339,1,W
-2024,8.0,Sun,2024-10-27 16:25:00,W,Chicago Bears,Washington Commanders,15.0,18.0,22.100824,21.477737,1,W
-2024,9.0,Sun,2024-11-03 16:05:00,W,Chicago Bears,Arizona Cardinals,9.0,29.0,26.230679,24.633469,1,W
-2024,10.0,Sun,2024-11-10 13:00:00,W,Chicago Bears,New England Patriots,3.0,19.0,20.414597,18.32224,1,W
-2024,11.0,Sun,2024-11-17 13:00:00,W,Chicago Bears,Green Bay Packers,19.0,20.0,23.299065,21.195824,1,W
-2024,12.0,Sun,2024-11-24 13:00:00,W,Chicago Bears,Minnesota Vikings,27.0,30.0,23.958061,19.409826,1,W
-2024,13.0,Thu,2024-11-28 12:30:00,L,Chicago Bears,Detroit Lions,20.0,23.0,26.83513,28.460836,0,L
-2024,14.0,Sun,2024-12-08 16:25:00,W,Chicago Bears,San Francisco 49ers,13.0,38.0,19.659155,16.825623,1,W
-2024,15.0,Mon,2024-12-16 20:00:00,L,Chicago Bears,Minnesota Vikings,12.0,30.0,24.471464,29.348644,0,L
-2024,16.0,Sun,2024-12-22 13:00:00,L,Chicago Bears,Detroit Lions,17.0,34.0,15.753668,28.660646,0,L
-2024,17.0,Thu,2024-12-26 20:15:00,L,Chicago Bears,Seattle Seahawks,3.0,6.0,17.88008,20.955734,0,L
-2024,1.0,Sun,2024-09-08 13:00:00,W,Cincinnati Bengals,New England Patriots,10.0,16.0,20.988201,18.185013,1,W
-2024,2.0,Sun,2024-09-15 16:25:00,L,Cincinnati Bengals,Kansas City Chiefs,25.0,26.0,21.35917,24.816448,0,L
-2024,3.0,Mon,2024-09-23 20:15:00,W,Cincinnati Bengals,Washington Commanders,33.0,38.0,22.359993,20.728611,1,W
-2024,4.0,Sun,2024-09-29 13:00:00,L,Cincinnati Bengals,Carolina Panthers,34.0,24.0,18.91828,19.394209,0,L
-2024,5.0,Sun,2024-10-06 13:00:00,L,Cincinnati Bengals,Baltimore Ravens,38.0,41.0,22.487827,31.726696,0,L
-2024,6.0,Sun,2024-10-13 20:20:00,L,Cincinnati Bengals,New York Giants,17.0,7.0,23.65607,27.15378,0,L
-2024,7.0,Sun,2024-10-20 13:00:00,W,Cincinnati Bengals,Cleveland Browns,21.0,14.0,26.487516,22.840311,1,W
-2024,8.0,Sun,2024-10-27 13:00:00,L,Cincinnati Bengals,Philadelphia Eagles,17.0,37.0,21.096703,25.238068,0,L
-2024,9.0,Sun,2024-11-03 13:00:00,L,Cincinnati Bengals,Las Vegas Raiders,41.0,24.0,15.794071,22.65281,0,L
-2024,10.0,Thu,2024-11-07 20:15:00,W,Cincinnati Bengals,Baltimore Ravens,34.0,35.0,25.350832,22.66604,1,W
-2024,11.0,Sun,2024-11-17 20:20:00,L,Cincinnati Bengals,Los Angeles Chargers,27.0,34.0,28.162968,30.421038,0,L
-2024,13.0,Sun,2024-12-01 13:00:00,W,Cincinnati Bengals,Pittsburgh Steelers,38.0,44.0,26.079483,21.640463,1,W
-2024,14.0,Mon,2024-12-09 20:15:00,L,Cincinnati Bengals,Dallas Cowboys,27.0,20.0,18.134195,25.401245,0,L
-2024,15.0,Sun,2024-12-15 13:00:00,L,Cincinnati Bengals,Tennessee Titans,37.0,27.0,24.068321,24.086132,0,L
-2024,16.0,Sun,2024-12-22 13:00:00,L,Cincinnati Bengals,Cleveland Browns,24.0,6.0,20.257812,20.67109,0,L
-2024,17.0,Sat,2024-12-28 16:30:00,W,Cincinnati Bengals,Denver Broncos,30.0,24.0,26.883076,18.83792,1,W
-2024,1.0,Sun,2024-09-08 16:25:00,W,Cleveland Browns,Dallas Cowboys,17.0,33.0,29.713003,19.766323,1,W
-2024,2.0,Sun,2024-09-15 13:00:00,W,Cleveland Browns,Jacksonville Jaguars,18.0,13.0,21.435543,17.966423,1,W
-2024,3.0,Sun,2024-09-22 13:00:00,L,Cleveland Browns,New York Giants,15.0,21.0,17.286858,17.995138,0,L
-2024,4.0,Sun,2024-09-29 16:25:00,L,Cleveland Browns,Las Vegas Raiders,16.0,20.0,22.079847,27.97837,0,L
-2024,5.0,Sun,2024-10-06 13:00:00,L,Cleveland Browns,Washington Commanders,13.0,34.0,19.535622,24.628147,0,L
-2024,6.0,Sun,2024-10-13 13:00:00,L,Cleveland Browns,Philadelphia Eagles,16.0,20.0,15.544717,18.555819,0,L
-2024,7.0,Sun,2024-10-20 13:00:00,L,Cleveland Browns,Cincinnati Bengals,14.0,21.0,22.73248,26.136568,0,L
-2024,8.0,Sun,2024-10-27 13:00:00,L,Cleveland Browns,Baltimore Ravens,29.0,24.0,23.387972,25.24145,0,L
-2024,9.0,Sun,2024-11-03 13:00:00,W,Cleveland Browns,Los Angeles Chargers,10.0,27.0,25.089716,22.190752,1,W
-2024,11.0,Sun,2024-11-17 13:00:00,L,Cleveland Browns,New Orleans Saints,14.0,35.0,19.651012,22.591604,0,L
-2024,12.0,Thu,2024-11-21 20:15:00,L,Cleveland Browns,Pittsburgh Steelers,24.0,19.0,20.175678,22.356684,0,L
-2024,13.0,Mon,2024-12-02 20:15:00,W,Cleveland Browns,Denver Broncos,32.0,41.0,20.705593,20.025545,1,W
-2024,14.0,Sun,2024-12-08 13:00:00,L,Cleveland Browns,Pittsburgh Steelers,14.0,27.0,20.087631,25.115753,0,L
-2024,15.0,Sun,2024-12-15 13:00:00,L,Cleveland Browns,Kansas City Chiefs,7.0,21.0,24.00587,25.22277,0,L
-2024,16.0,Sun,2024-12-22 13:00:00,L,Cleveland Browns,Cincinnati Bengals,6.0,24.0,19.385183,21.258066,0,L
-2024,17.0,Sun,2024-12-29 16:05:00,W,Cleveland Browns,Miami Dolphins,3.0,20.0,22.332531,21.762644,1,W
-2024,1.0,Sun,2024-09-08 16:25:00,L,Dallas Cowboys,Cleveland Browns,33.0,17.0,21.227757,26.248322,0,L
-2024,2.0,Sun,2024-09-15 13:00:00,W,Dallas Cowboys,New Orleans Saints,19.0,44.0,22.87884,21.692858,1,W
-2024,3.0,Sun,2024-09-22 16:25:00,L,Dallas Cowboys,Baltimore Ravens,25.0,28.0,21.149227,22.832972,0,L
-2024,4.0,Thu,2024-09-26 20:15:00,W,Dallas Cowboys,New York Giants,20.0,15.0,23.609217,19.222694,1,W
-2024,5.0,Sun,2024-10-06 20:20:00,L,Dallas Cowboys,Pittsburgh Steelers,20.0,17.0,17.323818,19.944675,0,L
-2024,6.0,Sun,2024-10-13 16:25:00,W,Dallas Cowboys,Detroit Lions,9.0,47.0,26.257366,21.585535,1,W
-2024,8.0,Sun,2024-10-27 20:20:00,L,Dallas Cowboys,San Francisco 49ers,24.0,30.0,18.879644,29.356491,0,L
-2024,9.0,Sun,2024-11-03 13:00:00,L,Dallas Cowboys,Atlanta Falcons,21.0,27.0,16.481247,26.591904,0,L
-2024,10.0,Sun,2024-11-10 16:25:00,L,Dallas Cowboys,Philadelphia Eagles,6.0,34.0,20.363588,25.761509,0,L
-2024,11.0,Mon,2024-11-18 20:15:00,W,Dallas Cowboys,Houston Texans,10.0,34.0,23.05564,13.461664,1,W
-2024,12.0,Sun,2024-11-24 13:00:00,L,Dallas Cowboys,Washington Commanders,34.0,26.0,21.622076,22.523703,0,L
-2024,13.0,Thu,2024-11-28 16:30:00,W,Dallas Cowboys,New York Giants,27.0,20.0,17.546705,15.9232025,1,W
-2024,14.0,Mon,2024-12-09 20:15:00,W,Dallas Cowboys,Cincinnati Bengals,20.0,27.0,24.700884,16.980503,1,W
-2024,15.0,Sun,2024-12-15 13:00:00,L,Dallas Cowboys,Carolina Panthers,30.0,14.0,19.830833,23.481081,0,L
-2024,16.0,Sun,2024-12-22 20:20:00,L,Dallas Cowboys,Tampa Bay Buccaneers,26.0,24.0,22.693386,24.401346,0,L
-2024,17.0,Sun,2024-12-29 13:00:00,L,Dallas Cowboys,Philadelphia Eagles,7.0,41.0,20.221296,26.928211,0,L
-2024,1.0,Sun,2024-09-08 16:05:00,L,Denver Broncos,Seattle Seahawks,20.0,26.0,24.22268,30.92291,0,L
-2024,2.0,Sun,2024-09-15 16:25:00,W,Denver Broncos,Pittsburgh Steelers,6.0,13.0,24.826061,15.40212,1,W
-2024,3.0,Sun,2024-09-22 13:00:00,L,Denver Broncos,Tampa Bay Buccaneers,26.0,7.0,16.417612,24.552435,0,L
-2024,4.0,Sun,2024-09-29 13:00:00,L,Denver Broncos,New York Jets,10.0,9.0,19.732311,20.852524,0,L
-2024,5.0,Sun,2024-10-06 16:05:00,L,Denver Broncos,Las Vegas Raiders,34.0,18.0,20.927132,22.201714,0,L
-2024,6.0,Sun,2024-10-13 16:05:00,W,Denver Broncos,Los Angeles Chargers,16.0,23.0,22.036947,16.12517,1,W
-2024,7.0,Thu,2024-10-17 20:15:00,L,Denver Broncos,New Orleans Saints,33.0,10.0,19.847895,22.183796,0,L
-2024,8.0,Sun,2024-10-27 16:25:00,W,Denver Broncos,Carolina Panthers,28.0,14.0,24.244164,15.800481,1,W
-2024,9.0,Sun,2024-11-03 13:00:00,L,Denver Broncos,Baltimore Ravens,10.0,41.0,18.720102,24.853918,0,L
-2024,10.0,Sun,2024-11-10 13:00:00,L,Denver Broncos,Kansas City Chiefs,14.0,16.0,21.204823,23.835787,0,L
-2024,11.0,Sun,2024-11-17 16:05:00,L,Denver Broncos,Atlanta Falcons,38.0,6.0,20.335228,25.174591,0,L
-2024,12.0,Sun,2024-11-24 16:05:00,W,Denver Broncos,Las Vegas Raiders,29.0,19.0,20.050797,18.920155,1,W
-2024,13.0,Mon,2024-12-02 20:15:00,W,Denver Broncos,Cleveland Browns,41.0,32.0,24.634266,18.145308,1,W
-2024,15.0,Sun,2024-12-15 16:25:00,L,Denver Broncos,Indianapolis Colts,31.0,13.0,26.056261,27.092335,0,L
-2024,16.0,Thu,2024-12-19 20:15:00,W,Denver Broncos,Los Angeles Chargers,27.0,34.0,22.278605,19.154945,1,W
-2024,17.0,Sat,2024-12-28 16:30:00,L,Denver Broncos,Cincinnati Bengals,24.0,30.0,16.093054,26.426693,0,L
-2024,1.0,Sun,2024-09-08 20:20:00,W,Detroit Lions,Los Angeles Rams,26.0,20.0,23.636992,15.36201,1,W
-2024,2.0,Sun,2024-09-15 13:00:00,W,Detroit Lions,Tampa Bay Buccaneers,16.0,20.0,23.20115,20.906013,1,W
-2024,3.0,Sun,2024-09-22 16:25:00,L,Detroit Lions,Arizona Cardinals,20.0,13.0,15.998811,22.599716,0,L
-2024,4.0,Mon,2024-09-30 20:15:00,W,Detroit Lions,Seattle Seahawks,42.0,29.0,20.232811,19.678497,1,W
-2024,6.0,Sun,2024-10-13 16:25:00,L,Detroit Lions,Dallas Cowboys,47.0,9.0,20.113213,23.445122,0,L
-2024,7.0,Sun,2024-10-20 13:00:00,W,Detroit Lions,Minnesota Vikings,31.0,29.0,26.467001,22.278904,1,W
-2024,8.0,Sun,2024-10-27 13:00:00,W,Detroit Lions,Tennessee Titans,52.0,14.0,23.218155,19.286306,1,W
-2024,9.0,Sun,2024-11-03 16:25:00,L,Detroit Lions,Green Bay Packers,24.0,14.0,23.875183,27.81711,0,L
-2024,10.0,Sun,2024-11-10 20:20:00,L,Detroit Lions,Houston Texans,26.0,23.0,18.915936,25.338158,0,L
-2024,11.0,Sun,2024-11-17 13:00:00,W,Detroit Lions,Jacksonville Jaguars,52.0,6.0,26.601913,15.338966,1,W
-2024,12.0,Sun,2024-11-24 13:00:00,L,Detroit Lions,Indianapolis Colts,24.0,6.0,22.329775,25.206156,0,L
-2024,13.0,Thu,2024-11-28 12:30:00,L,Detroit Lions,Chicago Bears,23.0,20.0,27.217829,29.157143,0,L
-2024,14.0,Thu,2024-12-05 20:15:00,L,Detroit Lions,Green Bay Packers,34.0,31.0,23.516378,25.718597,0,L
-2024,15.0,Sun,2024-12-15 16:25:00,L,Detroit Lions,Buffalo Bills,42.0,48.0,23.281536,26.945892,0,L
-2024,16.0,Sun,2024-12-22 13:00:00,W,Detroit Lions,Chicago Bears,34.0,17.0,30.31835,14.385779,1,W
-2024,17.0,Mon,2024-12-30 20:15:00,W,Detroit Lions,San Francisco 49ers,40.0,34.0,29.225502,21.90483,1,W
-2024,2.0,Sun,2024-09-15 13:00:00,W,Green Bay Packers,Indianapolis Colts,16.0,10.0,23.28343,21.466026,1,W
-2024,3.0,Sun,2024-09-22 13:00:00,L,Green Bay Packers,Tennessee Titans,30.0,14.0,17.360239,20.750355,0,L
-2024,4.0,Sun,2024-09-29 13:00:00,W,Green Bay Packers,Minnesota Vikings,29.0,31.0,29.151978,24.917326,1,W
-2024,5.0,Sun,2024-10-06 16:25:00,W,Green Bay Packers,Los Angeles Rams,24.0,19.0,27.15015,23.755547,1,W
-2024,6.0,Sun,2024-10-13 13:00:00,W,Green Bay Packers,Arizona Cardinals,34.0,13.0,29.048737,19.775858,1,W
-2024,7.0,Sun,2024-10-20 13:00:00,W,Green Bay Packers,Houston Texans,24.0,22.0,20.496094,15.4178915,1,W
-2024,8.0,Sun,2024-10-27 13:00:00,L,Green Bay Packers,Jacksonville Jaguars,30.0,27.0,17.554672,22.688677,0,L
-2024,9.0,Sun,2024-11-03 16:25:00,L,Green Bay Packers,Detroit Lions,14.0,24.0,23.138355,25.249971,0,L
-2024,11.0,Sun,2024-11-17 13:00:00,L,Green Bay Packers,Chicago Bears,20.0,19.0,18.147667,21.738218,0,L
-2024,12.0,Sun,2024-11-24 16:25:00,L,Green Bay Packers,San Francisco 49ers,38.0,10.0,23.167654,23.461626,0,L
-2024,13.0,Thu,2024-11-28 20:20:00,W,Green Bay Packers,Miami Dolphins,30.0,17.0,27.306269,19.667517,1,W
-2024,14.0,Thu,2024-12-05 20:15:00,W,Green Bay Packers,Detroit Lions,31.0,34.0,28.037107,25.856215,1,W
-2024,15.0,Sun,2024-12-15 20:20:00,L,Green Bay Packers,Seattle Seahawks,30.0,13.0,23.773218,23.775085,0,L
-2024,16.0,Mon,2024-12-23 20:15:00,W,Green Bay Packers,New Orleans Saints,34.0,0.0,22.030807,18.628416,1,W
-2024,17.0,Sun,2024-12-29 16:25:00,L,Green Bay Packers,Minnesota Vikings,25.0,27.0,24.21756,25.557281,0,L
-2024,1.0,Sun,2024-09-08 13:00:00,W,Houston Texans,Indianapolis Colts,29.0,27.0,24.454573,21.502684,1,W
-2024,2.0,Sun,2024-09-15 20:20:00,W,Houston Texans,Chicago Bears,19.0,13.0,25.098227,22.012691,1,W
-2024,3.0,Sun,2024-09-22 13:00:00,L,Houston Texans,Minnesota Vikings,7.0,34.0,18.46002,20.461885,0,L
-2024,4.0,Sun,2024-09-29 13:00:00,W,Houston Texans,Jacksonville Jaguars,24.0,20.0,20.125359,19.816786,1,W
-2024,5.0,Sun,2024-10-06 13:00:00,W,Houston Texans,Buffalo Bills,23.0,20.0,21.874968,20.649578,1,W
-2024,6.0,Sun,2024-10-13 13:00:00,W,Houston Texans,New England Patriots,41.0,21.0,21.47156,17.37188,1,W
-2024,7.0,Sun,2024-10-20 13:00:00,W,Houston Texans,Green Bay Packers,22.0,24.0,21.291513,18.681446,1,W
-2024,8.0,Sun,2024-10-27 13:00:00,W,Houston Texans,Indianapolis Colts,23.0,20.0,27.010094,20.01187,1,W
-2024,9.0,Thu,2024-10-31 20:15:00,L,Houston Texans,New York Jets,13.0,21.0,20.09775,23.093306,0,L
-2024,10.0,Sun,2024-11-10 20:20:00,W,Houston Texans,Detroit Lions,23.0,26.0,26.88742,21.02732,1,W
-2024,11.0,Mon,2024-11-18 20:15:00,L,Houston Texans,Dallas Cowboys,34.0,10.0,15.076282,22.224112,0,L
-2024,12.0,Sun,2024-11-24 13:00:00,W,Houston Texans,Tennessee Titans,27.0,32.0,22.04062,16.955303,1,W
-2024,13.0,Sun,2024-12-01 13:00:00,W,Houston Texans,Jacksonville Jaguars,23.0,20.0,21.84413,19.906635,1,W
-2024,15.0,Sun,2024-12-15 13:00:00,L,Houston Texans,Miami Dolphins,20.0,12.0,23.416769,24.308144,0,L
-2024,16.0,Sat,2024-12-21 13:00:00,W,Houston Texans,Kansas City Chiefs,19.0,27.0,20.654419,17.643957,1,W
-2024,17.0,Wed,2024-12-25 16:30:00,L,Houston Texans,Baltimore Ravens,2.0,31.0,22.845911,24.605925,0,L
-2024,1.0,Sun,2024-09-08 13:00:00,W,Indianapolis Colts,Houston Texans,27.0,29.0,23.061703,21.452417,1,W
-2024,2.0,Sun,2024-09-15 13:00:00,W,Indianapolis Colts,Green Bay Packers,10.0,16.0,22.50706,21.301878,1,W
-2024,3.0,Sun,2024-09-22 13:00:00,W,Indianapolis Colts,Chicago Bears,21.0,16.0,24.61462,16.259218,1,W
-2024,4.0,Sun,2024-09-29 13:00:00,L,Indianapolis Colts,Pittsburgh Steelers,27.0,24.0,22.06675,22.748837,0,L
-2024,5.0,Sun,2024-10-06 13:00:00,L,Indianapolis Colts,Jacksonville Jaguars,34.0,37.0,17.601948,19.637749,0,L
-2024,6.0,Sun,2024-10-13 13:00:00,W,Indianapolis Colts,Tennessee Titans,20.0,17.0,20.361362,19.521383,1,W
-2024,7.0,Sun,2024-10-20 13:00:00,W,Indianapolis Colts,Miami Dolphins,16.0,10.0,24.94624,22.722767,1,W
-2024,8.0,Sun,2024-10-27 13:00:00,L,Indianapolis Colts,Houston Texans,20.0,23.0,20.147894,25.015856,0,L
-2024,9.0,Sun,2024-11-03 20:20:00,L,Indianapolis Colts,Minnesota Vikings,13.0,21.0,16.770683,25.763046,0,L
-2024,10.0,Sun,2024-11-10 13:00:00,L,Indianapolis Colts,Buffalo Bills,20.0,30.0,16.943039,22.511951,0,L
-2024,11.0,Sun,2024-11-17 13:00:00,L,Indianapolis Colts,New York Jets,28.0,27.0,21.296211,22.84025,0,L
-2024,12.0,Sun,2024-11-24 13:00:00,W,Indianapolis Colts,Detroit Lions,6.0,24.0,18.589396,17.7234,1,W
-2024,13.0,Sun,2024-12-01 13:00:00,L,Indianapolis Colts,New England Patriots,25.0,24.0,17.420677,21.64442,0,L
-2024,15.0,Sun,2024-12-15 16:25:00,W,Indianapolis Colts,Denver Broncos,13.0,31.0,26.055609,23.146414,1,W
-2024,16.0,Sun,2024-12-22 13:00:00,L,Indianapolis Colts,Tennessee Titans,38.0,30.0,15.044784,20.392612,0,L
-2024,17.0,Sun,2024-12-29 13:00:00,L,Indianapolis Colts,New York Giants,33.0,45.0,17.735188,23.20125,0,L
-2024,1.0,Sun,2024-09-08 13:00:00,L,Jacksonville Jaguars,Miami Dolphins,17.0,20.0,20.199715,22.317993,0,L
-2024,2.0,Sun,2024-09-15 13:00:00,L,Jacksonville Jaguars,Cleveland Browns,13.0,18.0,18.964561,22.285736,0,L
-2024,3.0,Mon,2024-09-23 19:30:00,L,Jacksonville Jaguars,Buffalo Bills,10.0,47.0,21.441252,24.303469,0,L
-2024,4.0,Sun,2024-09-29 13:00:00,W,Jacksonville Jaguars,Houston Texans,20.0,24.0,22.274961,20.863804,1,W
-2024,5.0,Sun,2024-10-06 13:00:00,W,Jacksonville Jaguars,Indianapolis Colts,37.0,34.0,25.43082,17.42904,1,W
-2024,6.0,Sun,2024-10-13 09:30:00,L,Jacksonville Jaguars,Chicago Bears,16.0,35.0,17.838139,24.530334,0,L
-2024,7.0,Sun,2024-10-20 09:30:00,L,Jacksonville Jaguars,New England Patriots,32.0,16.0,20.623528,22.782793,0,L
-2024,8.0,Sun,2024-10-27 13:00:00,L,Jacksonville Jaguars,Green Bay Packers,27.0,30.0,20.248308,21.343046,0,L
-2024,9.0,Sun,2024-11-03 16:05:00,L,Jacksonville Jaguars,Philadelphia Eagles,23.0,28.0,21.774923,28.597294,0,L
-2024,10.0,Sun,2024-11-10 13:00:00,W,Jacksonville Jaguars,Minnesota Vikings,7.0,12.0,26.924557,23.25531,1,W
-2024,11.0,Sun,2024-11-17 13:00:00,L,Jacksonville Jaguars,Detroit Lions,6.0,52.0,14.22696,24.416214,0,L
-2024,13.0,Sun,2024-12-01 13:00:00,L,Jacksonville Jaguars,Houston Texans,20.0,23.0,16.574566,19.59297,0,L
-2024,14.0,Sun,2024-12-08 13:00:00,L,Jacksonville Jaguars,Tennessee Titans,10.0,6.0,19.264263,29.452148,0,L
-2024,15.0,Sun,2024-12-15 13:00:00,L,Jacksonville Jaguars,New York Jets,25.0,32.0,20.753263,24.246225,0,L
-2024,16.0,Sun,2024-12-22 16:25:00,L,Jacksonville Jaguars,Las Vegas Raiders,14.0,19.0,22.399517,24.427103,0,L
-2024,17.0,Sun,2024-12-29 13:00:00,L,Jacksonville Jaguars,Tennessee Titans,20.0,13.0,19.34244,20.50312,0,L
-2024,2.0,Sun,2024-09-15 16:25:00,W,Kansas City Chiefs,Cincinnati Bengals,26.0,25.0,25.007914,23.195545,1,W
-2024,3.0,Sun,2024-09-22 20:20:00,L,Kansas City Chiefs,Atlanta Falcons,22.0,17.0,21.62588,21.980804,0,L
-2024,4.0,Sun,2024-09-29 16:25:00,W,Kansas City Chiefs,Los Angeles Chargers,17.0,10.0,21.924,17.316753,1,W
-2024,5.0,Mon,2024-10-07 20:15:00,W,Kansas City Chiefs,New Orleans Saints,26.0,13.0,18.720404,17.022112,1,W
-2024,7.0,Sun,2024-10-20 16:25:00,L,Kansas City Chiefs,San Francisco 49ers,28.0,18.0,22.003477,27.220844,0,L
-2024,8.0,Sun,2024-10-27 16:25:00,W,Kansas City Chiefs,Las Vegas Raiders,27.0,20.0,22.807384,19.61924,1,W
-2024,9.0,Mon,2024-11-04 20:15:00,W,Kansas City Chiefs,Tampa Bay Buccaneers,30.0,24.0,24.782537,16.913008,1,W
-2024,10.0,Sun,2024-11-10 13:00:00,W,Kansas City Chiefs,Denver Broncos,16.0,14.0,25.836218,20.942392,1,W
-2024,11.0,Sun,2024-11-17 16:25:00,L,Kansas City Chiefs,Buffalo Bills,21.0,30.0,19.13032,29.946201,0,L
-2024,12.0,Sun,2024-11-24 13:00:00,W,Kansas City Chiefs,Carolina Panthers,30.0,27.0,22.464287,19.26875,1,W
-2024,13.0,Fri,2024-11-29 15:00:00,L,Kansas City Chiefs,Las Vegas Raiders,19.0,17.0,23.843912,25.820232,0,L
-2024,14.0,Sun,2024-12-08 20:20:00,W,Kansas City Chiefs,Los Angeles Chargers,19.0,17.0,26.636616,23.552975,1,W
-2024,15.0,Sun,2024-12-15 13:00:00,W,Kansas City Chiefs,Cleveland Browns,21.0,7.0,20.17327,20.12602,1,W
-2024,16.0,Sat,2024-12-21 13:00:00,L,Kansas City Chiefs,Houston Texans,27.0,19.0,22.624062,22.882856,0,L
-2024,17.0,Wed,2024-12-25 13:00:00,W,Kansas City Chiefs,Pittsburgh Steelers,29.0,10.0,18.21873,17.471273,1,W
-2024,1.0,Sun,2024-09-08 16:05:00,W,Las Vegas Raiders,Los Angeles Chargers,10.0,22.0,23.803104,21.646801,1,W
-2024,2.0,Sun,2024-09-15 13:00:00,L,Las Vegas Raiders,Baltimore Ravens,26.0,23.0,18.549866,26.410986,0,L
-2024,3.0,Sun,2024-09-22 16:05:00,W,Las Vegas Raiders,Carolina Panthers,22.0,36.0,26.316233,20.294777,1,W
-2024,4.0,Sun,2024-09-29 16:25:00,W,Las Vegas Raiders,Cleveland Browns,20.0,16.0,26.334417,24.004995,1,W
-2024,5.0,Sun,2024-10-06 16:05:00,W,Las Vegas Raiders,Denver Broncos,18.0,34.0,26.80512,19.057701,1,W
-2024,6.0,Sun,2024-10-13 16:05:00,W,Las Vegas Raiders,Pittsburgh Steelers,13.0,32.0,19.501041,17.86064,1,W
-2024,7.0,Sun,2024-10-20 16:05:00,L,Las Vegas Raiders,Los Angeles Rams,15.0,20.0,20.66831,31.772604,0,L
-2024,8.0,Sun,2024-10-27 16:25:00,L,Las Vegas Raiders,Kansas City Chiefs,20.0,27.0,16.278315,24.918934,0,L
-2024,9.0,Sun,2024-11-03 13:00:00,W,Las Vegas Raiders,Cincinnati Bengals,24.0,41.0,23.865084,18.87895,1,W
-2024,11.0,Sun,2024-11-17 13:00:00,L,Las Vegas Raiders,Miami Dolphins,19.0,34.0,14.125606,22.377314,0,L
-2024,12.0,Sun,2024-11-24 16:05:00,L,Las Vegas Raiders,Denver Broncos,19.0,29.0,20.502392,25.555555,0,L
-2024,13.0,Fri,2024-11-29 15:00:00,L,Las Vegas Raiders,Kansas City Chiefs,17.0,19.0,22.989529,27.102217,0,L
-2024,14.0,Sun,2024-12-08 13:00:00,L,Las Vegas Raiders,Tampa Bay Buccaneers,13.0,28.0,17.980574,29.504753,0,L
-2024,15.0,Mon,2024-12-16 20:30:00,W,Las Vegas Raiders,Atlanta Falcons,9.0,15.0,23.054592,18.617346,1,W
-2024,16.0,Sun,2024-12-22 16:25:00,L,Las Vegas Raiders,Jacksonville Jaguars,19.0,14.0,21.642105,24.259981,0,L
-2024,17.0,Sun,2024-12-29 13:00:00,W,Las Vegas Raiders,New Orleans Saints,25.0,10.0,19.928263,17.886934,1,W
-2024,1.0,Sun,2024-09-08 16:05:00,L,Los Angeles Chargers,Las Vegas Raiders,22.0,10.0,18.192335,22.28832,0,L
-2024,2.0,Sun,2024-09-15 13:00:00,W,Los Angeles Chargers,Carolina Panthers,26.0,3.0,21.873274,13.504446,1,W
-2024,3.0,Sun,2024-09-22 13:00:00,L,Los Angeles Chargers,Pittsburgh Steelers,10.0,20.0,14.91468,19.542444,0,L
-2024,4.0,Sun,2024-09-29 16:25:00,L,Los Angeles Chargers,Kansas City Chiefs,10.0,17.0,17.141314,19.074759,0,L
-2024,6.0,Sun,2024-10-13 16:05:00,L,Los Angeles Chargers,Denver Broncos,23.0,16.0,15.044349,22.172571,0,L
-2024,7.0,Mon,2024-10-21 21:00:00,W,Los Angeles Chargers,Arizona Cardinals,15.0,17.0,23.761522,19.860182,1,W
-2024,8.0,Sun,2024-10-27 16:05:00,W,Los Angeles Chargers,New Orleans Saints,26.0,8.0,21.054907,17.927221,1,W
-2024,9.0,Sun,2024-11-03 13:00:00,L,Los Angeles Chargers,Cleveland Browns,27.0,10.0,22.218082,27.607462,0,L
-2024,10.0,Sun,2024-11-10 16:05:00,W,Los Angeles Chargers,Tennessee Titans,27.0,17.0,21.785618,21.365093,1,W
-2024,11.0,Sun,2024-11-17 20:20:00,W,Los Angeles Chargers,Cincinnati Bengals,34.0,27.0,28.353304,26.889423,1,W
-2024,12.0,Mon,2024-11-25 20:15:00,W,Los Angeles Chargers,Baltimore Ravens,23.0,30.0,31.322844,20.200375,1,W
-2024,13.0,Sun,2024-12-01 13:00:00,W,Los Angeles Chargers,Atlanta Falcons,17.0,13.0,25.221645,22.0206,1,W
-2024,14.0,Sun,2024-12-08 20:20:00,L,Los Angeles Chargers,Kansas City Chiefs,17.0,19.0,21.275873,30.461761,0,L
-2024,15.0,Sun,2024-12-15 16:25:00,L,Los Angeles Chargers,Tampa Bay Buccaneers,17.0,40.0,22.542109,23.783588,0,L
-2024,16.0,Thu,2024-12-19 20:15:00,L,Los Angeles Chargers,Denver Broncos,34.0,27.0,19.843597,21.026108,0,L
-2024,17.0,Sat,2024-12-28 13:00:00,L,Los Angeles Chargers,New England Patriots,40.0,7.0,18.482355,27.124857,0,L
-2024,1.0,Sun,2024-09-08 13:00:00,L,Miami Dolphins,Jacksonville Jaguars,20.0,17.0,19.295004,21.316029,0,L
-2024,2.0,Thu,2024-09-12 20:15:00,L,Miami Dolphins,Buffalo Bills,10.0,31.0,17.045448,17.244606,0,L
-2024,3.0,Sun,2024-09-22 16:05:00,L,Miami Dolphins,Seattle Seahawks,3.0,24.0,24.697186,29.386917,0,L
-2024,4.0,Mon,2024-09-30 19:30:00,L,Miami Dolphins,Tennessee Titans,12.0,31.0,17.371656,21.988523,0,L
-2024,5.0,Sun,2024-10-06 13:00:00,W,Miami Dolphins,New England Patriots,15.0,10.0,19.112703,18.810202,1,W
-2024,7.0,Sun,2024-10-20 13:00:00,L,Miami Dolphins,Indianapolis Colts,10.0,16.0,21.633966,23.452066,0,L
-2024,8.0,Sun,2024-10-27 13:00:00,L,Miami Dolphins,Arizona Cardinals,27.0,28.0,16.909807,17.44293,0,L
-2024,9.0,Sun,2024-11-03 13:00:00,L,Miami Dolphins,Buffalo Bills,27.0,30.0,19.974674,31.013327,0,L
-2024,10.0,Mon,2024-11-11 20:15:00,L,Miami Dolphins,Los Angeles Rams,23.0,15.0,17.84209,22.69442,0,L
-2024,11.0,Sun,2024-11-17 13:00:00,W,Miami Dolphins,Las Vegas Raiders,34.0,19.0,23.019106,16.078371,1,W
-2024,12.0,Sun,2024-11-24 13:00:00,W,Miami Dolphins,New England Patriots,34.0,15.0,27.560804,21.003178,1,W
-2024,13.0,Thu,2024-11-28 20:20:00,L,Miami Dolphins,Green Bay Packers,17.0,30.0,20.314508,24.992485,0,L
-2024,14.0,Sun,2024-12-08 13:00:00,W,Miami Dolphins,New York Jets,32.0,26.0,25.758953,18.446262,1,W
-2024,15.0,Sun,2024-12-15 13:00:00,W,Miami Dolphins,Houston Texans,12.0,20.0,24.91614,21.444128,1,W
-2024,16.0,Sun,2024-12-22 16:25:00,W,Miami Dolphins,San Francisco 49ers,29.0,17.0,24.769192,20.557539,1,W
-2024,17.0,Sun,2024-12-29 16:05:00,W,Miami Dolphins,Cleveland Browns,20.0,3.0,22.267147,21.479668,1,W
-2024,1.0,Sun,2024-09-08 13:00:00,L,Minnesota Vikings,New York Giants,28.0,6.0,14.288846,19.462734,0,L
-2024,2.0,Sun,2024-09-15 13:00:00,L,Minnesota Vikings,San Francisco 49ers,23.0,17.0,17.99802,24.688942,0,L
-2024,3.0,Sun,2024-09-22 13:00:00,L,Minnesota Vikings,Houston Texans,34.0,7.0,19.92979,21.039072,0,L
-2024,4.0,Sun,2024-09-29 13:00:00,W,Minnesota Vikings,Green Bay Packers,31.0,29.0,26.097158,25.27593,1,W
-2024,5.0,Sun,2024-10-06 09:30:00,W,Minnesota Vikings,New York Jets,23.0,17.0,25.25803,20.578352,1,W
-2024,7.0,Sun,2024-10-20 13:00:00,L,Minnesota Vikings,Detroit Lions,29.0,31.0,20.136545,25.616734,0,L
-2024,8.0,Thu,2024-10-24 20:15:00,L,Minnesota Vikings,Los Angeles Rams,20.0,30.0,18.987259,20.249523,0,L
-2024,9.0,Sun,2024-11-03 20:20:00,W,Minnesota Vikings,Indianapolis Colts,21.0,13.0,25.231728,17.968,1,W
-2024,10.0,Sun,2024-11-10 13:00:00,L,Minnesota Vikings,Jacksonville Jaguars,12.0,7.0,25.280807,26.94021,0,L
-2024,11.0,Sun,2024-11-17 13:00:00,W,Minnesota Vikings,Tennessee Titans,23.0,13.0,26.825352,18.362015,1,W
-2024,12.0,Sun,2024-11-24 13:00:00,L,Minnesota Vikings,Chicago Bears,30.0,27.0,20.601238,23.811672,0,L
-2024,13.0,Sun,2024-12-01 13:00:00,W,Minnesota Vikings,Arizona Cardinals,23.0,22.0,25.080782,23.353157,1,W
-2024,14.0,Sun,2024-12-08 13:00:00,W,Minnesota Vikings,Atlanta Falcons,42.0,21.0,27.944677,22.067835,1,W
-2024,15.0,Mon,2024-12-16 20:00:00,W,Minnesota Vikings,Chicago Bears,30.0,12.0,27.007195,23.063425,1,W
-2024,16.0,Sun,2024-12-22 16:05:00,L,Minnesota Vikings,Seattle Seahawks,27.0,24.0,26.60868,27.207136,0,L
-2024,17.0,Sun,2024-12-29 16:25:00,W,Minnesota Vikings,Green Bay Packers,27.0,25.0,25.632853,23.295965,1,W
-2024,1.0,Sun,2024-09-08 13:00:00,L,New England Patriots,Cincinnati Bengals,16.0,10.0,21.452913,26.778381,0,L
-2024,2.0,Sun,2024-09-15 13:00:00,W,New England Patriots,Seattle Seahawks,20.0,23.0,22.933962,22.561506,1,W
-2024,3.0,Thu,2024-09-19 20:15:00,L,New England Patriots,New York Jets,3.0,24.0,20.253582,21.82587,0,L
-2024,4.0,Sun,2024-09-29 16:05:00,L,New England Patriots,San Francisco 49ers,13.0,30.0,20.467823,26.834944,0,L
-2024,5.0,Sun,2024-10-06 13:00:00,L,New England Patriots,Miami Dolphins,10.0,15.0,14.864069,21.37848,0,L
-2024,6.0,Sun,2024-10-13 13:00:00,L,New England Patriots,Houston Texans,21.0,41.0,18.478668,24.876356,0,L
-2024,7.0,Sun,2024-10-20 09:30:00,L,New England Patriots,Jacksonville Jaguars,16.0,32.0,21.75227,21.930716,0,L
-2024,8.0,Sun,2024-10-27 13:00:00,L,New England Patriots,New York Jets,25.0,22.0,20.48938,21.429396,0,L
-2024,9.0,Sun,2024-11-03 13:00:00,L,New England Patriots,Tennessee Titans,17.0,20.0,18.827791,20.102972,0,L
-2024,10.0,Sun,2024-11-10 13:00:00,L,New England Patriots,Chicago Bears,19.0,3.0,19.907267,20.984388,0,L
-2024,11.0,Sun,2024-11-17 13:00:00,L,New England Patriots,Los Angeles Rams,22.0,28.0,23.930946,23.971289,0,L
-2024,12.0,Sun,2024-11-24 13:00:00,L,New England Patriots,Miami Dolphins,15.0,34.0,19.958773,20.992447,0,L
-2024,13.0,Sun,2024-12-01 13:00:00,W,New England Patriots,Indianapolis Colts,24.0,25.0,22.976967,16.344706,1,W
-2024,15.0,Sun,2024-12-15 16:25:00,W,New England Patriots,Arizona Cardinals,17.0,30.0,21.837692,21.072054,1,W
-2024,16.0,Sun,2024-12-22 16:25:00,L,New England Patriots,Buffalo Bills,21.0,24.0,20.002354,21.23122,0,L
-2024,17.0,Sat,2024-12-28 13:00:00,W,New England Patriots,Los Angeles Chargers,7.0,40.0,24.339622,22.544222,1,W
-2024,1.0,Sun,2024-09-08 13:00:00,W,New Orleans Saints,Carolina Panthers,47.0,10.0,29.220509,22.033234,1,W
-2024,2.0,Sun,2024-09-15 13:00:00,L,New Orleans Saints,Dallas Cowboys,44.0,19.0,22.686655,25.610159,0,L
-2024,3.0,Sun,2024-09-22 13:00:00,L,New Orleans Saints,Philadelphia Eagles,12.0,15.0,21.013737,26.081806,0,L
-2024,4.0,Sun,2024-09-29 13:00:00,L,New Orleans Saints,Atlanta Falcons,24.0,26.0,22.941145,23.715994,0,L
-2024,5.0,Mon,2024-10-07 20:15:00,W,New Orleans Saints,Kansas City Chiefs,13.0,26.0,19.006977,18.846466,1,W
-2024,6.0,Sun,2024-10-13 13:00:00,L,New Orleans Saints,Tampa Bay Buccaneers,27.0,51.0,21.318558,24.18316,0,L
-2024,7.0,Thu,2024-10-17 20:15:00,W,New Orleans Saints,Denver Broncos,10.0,33.0,19.454176,19.371824,1,W
-2024,8.0,Sun,2024-10-27 16:05:00,L,New Orleans Saints,Los Angeles Chargers,8.0,26.0,19.374556,23.860136,0,L
-2024,9.0,Sun,2024-11-03 13:00:00,W,New Orleans Saints,Carolina Panthers,22.0,23.0,27.589052,19.074183,1,W
-2024,10.0,Sun,2024-11-10 13:00:00,L,New Orleans Saints,Atlanta Falcons,20.0,17.0,15.085526,20.516169,0,L
-2024,11.0,Sun,2024-11-17 13:00:00,L,New Orleans Saints,Cleveland Browns,35.0,14.0,21.905748,22.747728,0,L
-2024,13.0,Sun,2024-12-01 16:05:00,W,New Orleans Saints,Los Angeles Rams,14.0,21.0,23.570343,19.779697,1,W
-2024,14.0,Sun,2024-12-08 13:00:00,W,New Orleans Saints,New York Giants,14.0,11.0,23.592672,17.826092,1,W
-2024,15.0,Sun,2024-12-15 13:00:00,W,New Orleans Saints,Washington Commanders,19.0,20.0,28.532541,20.912582,1,W
-2024,16.0,Mon,2024-12-23 20:15:00,L,New Orleans Saints,Green Bay Packers,0.0,34.0,21.038326,25.507025,0,L
-2024,17.0,Sun,2024-12-29 13:00:00,L,New Orleans Saints,Las Vegas Raiders,10.0,25.0,16.898045,19.957918,0,L
-2024,1.0,Sun,2024-09-08 13:00:00,W,New York Giants,Minnesota Vikings,6.0,28.0,21.128742,19.105688,1,W
-2024,2.0,Sun,2024-09-15 13:00:00,W,New York Giants,Washington Commanders,18.0,21.0,27.04701,22.574022,1,W
-2024,3.0,Sun,2024-09-22 13:00:00,W,New York Giants,Cleveland Browns,21.0,15.0,19.574987,16.919188,1,W
-2024,4.0,Thu,2024-09-26 20:15:00,L,New York Giants,Dallas Cowboys,15.0,20.0,19.022415,24.577744,0,L
-2024,5.0,Sun,2024-10-06 16:25:00,L,New York Giants,Seattle Seahawks,29.0,20.0,22.830442,27.255451,0,L
-2024,6.0,Sun,2024-10-13 20:20:00,W,New York Giants,Cincinnati Bengals,7.0,17.0,29.56619,21.912474,1,W
-2024,7.0,Sun,2024-10-20 13:00:00,W,New York Giants,Philadelphia Eagles,3.0,28.0,27.026285,23.5354,1,W
-2024,8.0,Mon,2024-10-28 20:15:00,L,New York Giants,Pittsburgh Steelers,18.0,26.0,23.240826,23.747513,0,L
-2024,9.0,Sun,2024-11-03 13:00:00,W,New York Giants,Washington Commanders,22.0,27.0,28.277365,23.758003,1,W
-2024,10.0,Sun,2024-11-10 09:30:00,W,New York Giants,Carolina Panthers,17.0,20.0,18.04737,15.242312,1,W
-2024,12.0,Sun,2024-11-24 13:00:00,W,New York Giants,Tampa Bay Buccaneers,7.0,30.0,16.768261,12.786083,1,W
-2024,13.0,Thu,2024-11-28 16:30:00,L,New York Giants,Dallas Cowboys,20.0,27.0,15.802103,19.018318,0,L
-2024,14.0,Sun,2024-12-08 13:00:00,L,New York Giants,New Orleans Saints,11.0,14.0,17.529442,23.82037,0,L
-2024,15.0,Sun,2024-12-15 13:00:00,L,New York Giants,Baltimore Ravens,14.0,35.0,21.157883,22.00954,0,L
-2024,16.0,Sun,2024-12-22 13:00:00,L,New York Giants,Atlanta Falcons,7.0,34.0,20.06981,21.697409,0,L
-2024,17.0,Sun,2024-12-29 13:00:00,W,New York Giants,Indianapolis Colts,45.0,33.0,22.853848,18.143581,1,W
-2024,1.0,Mon,2024-09-09 20:15:00,W,New York Jets,San Francisco 49ers,19.0,32.0,19.524216,18.267063,1,W
-2024,2.0,Sun,2024-09-15 13:00:00,L,New York Jets,Tennessee Titans,24.0,17.0,18.849125,18.903194,0,L
-2024,3.0,Thu,2024-09-19 20:15:00,W,New York Jets,New England Patriots,24.0,3.0,22.893137,21.086185,1,W
-2024,4.0,Sun,2024-09-29 13:00:00,W,New York Jets,Denver Broncos,9.0,10.0,23.027367,20.671381,1,W
-2024,5.0,Sun,2024-10-06 09:30:00,L,New York Jets,Minnesota Vikings,17.0,23.0,22.20721,23.579077,0,L
-2024,6.0,Mon,2024-10-14 20:15:00,L,New York Jets,Buffalo Bills,20.0,23.0,19.730816,21.914127,0,L
-2024,7.0,Sun,2024-10-20 20:20:00,L,New York Jets,Pittsburgh Steelers,15.0,37.0,17.194853,21.119207,0,L
-2024,8.0,Sun,2024-10-27 13:00:00,W,New York Jets,New England Patriots,22.0,25.0,19.318617,17.451193,1,W
-2024,9.0,Thu,2024-10-31 20:15:00,W,New York Jets,Houston Texans,21.0,13.0,23.668333,21.28051,1,W
-2024,10.0,Sun,2024-11-10 16:25:00,L,New York Jets,Arizona Cardinals,6.0,31.0,17.722284,28.417515,0,L
-2024,11.0,Sun,2024-11-17 13:00:00,W,New York Jets,Indianapolis Colts,27.0,28.0,26.450514,22.462122,1,W
-2024,13.0,Sun,2024-12-01 13:00:00,W,New York Jets,Seattle Seahawks,21.0,26.0,22.939734,22.198128,1,W
-2024,14.0,Sun,2024-12-08 13:00:00,L,New York Jets,Miami Dolphins,26.0,32.0,15.652236,28.3745,0,L
-2024,15.0,Sun,2024-12-15 13:00:00,W,New York Jets,Jacksonville Jaguars,32.0,25.0,25.605816,20.939857,1,W
-2024,16.0,Sun,2024-12-22 13:00:00,L,New York Jets,Los Angeles Rams,9.0,19.0,20.926584,21.763206,0,L
-2024,17.0,Sun,2024-12-29 13:00:00,L,New York Jets,Buffalo Bills,14.0,40.0,21.494297,25.394922,0,L
-2024,2.0,Mon,2024-09-16 20:15:00,W,Philadelphia Eagles,Atlanta Falcons,21.0,22.0,25.955975,24.977262,1,W
-2024,3.0,Sun,2024-09-22 13:00:00,W,Philadelphia Eagles,New Orleans Saints,15.0,12.0,22.94419,22.00278,1,W
-2024,4.0,Sun,2024-09-29 13:00:00,L,Philadelphia Eagles,Tampa Bay Buccaneers,16.0,33.0,24.658535,24.720882,0,L
-2024,6.0,Sun,2024-10-13 13:00:00,W,Philadelphia Eagles,Cleveland Browns,20.0,16.0,19.121876,16.930502,1,W
-2024,7.0,Sun,2024-10-20 13:00:00,L,Philadelphia Eagles,New York Giants,28.0,3.0,17.377127,23.812937,0,L
-2024,8.0,Sun,2024-10-27 13:00:00,W,Philadelphia Eagles,Cincinnati Bengals,37.0,17.0,23.985645,21.29928,1,W
-2024,9.0,Sun,2024-11-03 16:05:00,W,Philadelphia Eagles,Jacksonville Jaguars,28.0,23.0,28.728674,18.615433,1,W
-2024,10.0,Sun,2024-11-10 16:25:00,W,Philadelphia Eagles,Dallas Cowboys,34.0,6.0,27.149267,20.585304,1,W
-2024,11.0,Thu,2024-11-14 20:15:00,W,Philadelphia Eagles,Washington Commanders,26.0,18.0,37.544727,14.648976,1,W
-2024,12.0,Sun,2024-11-24 20:20:00,L,Philadelphia Eagles,Los Angeles Rams,37.0,20.0,25.803879,27.51727,0,L
-2024,13.0,Sun,2024-12-01 16:25:00,W,Philadelphia Eagles,Baltimore Ravens,24.0,19.0,34.664963,18.007036,1,W
-2024,14.0,Sun,2024-12-08 13:00:00,W,Philadelphia Eagles,Carolina Panthers,22.0,16.0,27.674183,22.157095,1,W
-2024,15.0,Sun,2024-12-15 16:25:00,L,Philadelphia Eagles,Pittsburgh Steelers,27.0,13.0,26.44237,28.94345,0,L
-2024,16.0,Sun,2024-12-22 13:00:00,L,Philadelphia Eagles,Washington Commanders,33.0,36.0,22.751352,22.848873,0,L
-2024,17.0,Sun,2024-12-29 13:00:00,W,Philadelphia Eagles,Dallas Cowboys,41.0,7.0,27.647602,18.798729,1,W
-2024,1.0,Sun,2024-09-08 13:00:00,W,Pittsburgh Steelers,Atlanta Falcons,18.0,10.0,24.237303,23.23997,1,W
-2024,2.0,Sun,2024-09-15 16:25:00,L,Pittsburgh Steelers,Denver Broncos,13.0,6.0,16.567392,25.73737,0,L
-2024,3.0,Sun,2024-09-22 13:00:00,L,Pittsburgh Steelers,Los Angeles Chargers,20.0,10.0,15.019156,16.841642,0,L
-2024,4.0,Sun,2024-09-29 13:00:00,L,Pittsburgh Steelers,Indianapolis Colts,24.0,27.0,24.561657,24.923008,0,L
-2024,5.0,Sun,2024-10-06 20:20:00,W,Pittsburgh Steelers,Dallas Cowboys,17.0,20.0,22.924767,19.678532,1,W
-2024,6.0,Sun,2024-10-13 16:05:00,L,Pittsburgh Steelers,Las Vegas Raiders,32.0,13.0,18.671562,20.992264,0,L
-2024,7.0,Sun,2024-10-20 20:20:00,W,Pittsburgh Steelers,New York Jets,37.0,15.0,19.47016,17.632801,1,W
-2024,8.0,Mon,2024-10-28 20:15:00,W,Pittsburgh Steelers,New York Giants,26.0,18.0,21.5792,19.770922,1,W
-2024,10.0,Sun,2024-11-10 13:00:00,W,Pittsburgh Steelers,Washington Commanders,28.0,27.0,28.364872,22.375109,1,W
-2024,11.0,Sun,2024-11-17 13:00:00,W,Pittsburgh Steelers,Baltimore Ravens,18.0,16.0,29.526585,28.445185,1,W
-2024,12.0,Thu,2024-11-21 20:15:00,L,Pittsburgh Steelers,Cleveland Browns,19.0,24.0,15.62497,22.478031,0,L
-2024,13.0,Sun,2024-12-01 13:00:00,L,Pittsburgh Steelers,Cincinnati Bengals,44.0,38.0,21.36292,23.916868,0,L
-2024,14.0,Sun,2024-12-08 13:00:00,W,Pittsburgh Steelers,Cleveland Browns,27.0,14.0,26.612658,19.69952,1,W
-2024,15.0,Sun,2024-12-15 16:25:00,L,Pittsburgh Steelers,Philadelphia Eagles,13.0,27.0,22.828465,23.254606,0,L
-2024,16.0,Sat,2024-12-21 16:30:00,L,Pittsburgh Steelers,Baltimore Ravens,17.0,34.0,18.813932,25.64557,0,L
-2024,17.0,Wed,2024-12-25 13:00:00,L,Pittsburgh Steelers,Kansas City Chiefs,10.0,29.0,16.371166,19.144678,0,L
-2024,1.0,Sun,2024-09-08 20:20:00,W,RAM,Detroit Lions,20.0,26.0,26.308413,25.637457,1,W
-2024,2.0,Sun,2024-09-15 16:05:00,W,RAM,Arizona Cardinals,10.0,41.0,27.511253,26.00557,1,W
-2024,3.0,Sun,2024-09-22 16:25:00,W,RAM,San Francisco 49ers,27.0,24.0,23.273052,21.553545,1,W
-2024,4.0,Sun,2024-09-29 13:00:00,L,RAM,Chicago Bears,18.0,24.0,21.67303,24.389935,0,L
-2024,5.0,Sun,2024-10-06 16:25:00,W,RAM,Green Bay Packers,19.0,24.0,23.185577,20.249538,1,W
-2024,7.0,Sun,2024-10-20 16:05:00,W,RAM,Las Vegas Raiders,20.0,15.0,20.84722,20.03136,1,W
-2024,8.0,Thu,2024-10-24 20:15:00,L,RAM,Minnesota Vikings,30.0,20.0,21.786034,25.96823,0,L
-2024,9.0,Sun,2024-11-03 16:25:00,L,RAM,Seattle Seahawks,26.0,20.0,22.093405,22.596155,0,L
-2024,10.0,Mon,2024-11-11 20:15:00,W,RAM,Miami Dolphins,15.0,23.0,23.832647,21.789171,1,W
-2024,11.0,Sun,2024-11-17 13:00:00,W,RAM,New England Patriots,28.0,22.0,25.922136,25.843966,1,W
-2024,12.0,Sun,2024-11-24 20:20:00,W,RAM,Philadelphia Eagles,20.0,37.0,24.58099,21.892372,1,W
-2024,13.0,Sun,2024-12-01 16:05:00,L,RAM,New Orleans Saints,21.0,14.0,21.157331,22.46237,0,L
-2024,14.0,Sun,2024-12-08 16:25:00,W,RAM,Buffalo Bills,44.0,42.0,28.048672,23.498995,1,W
-2024,15.0,Thu,2024-12-12 20:15:00,W,RAM,San Francisco 49ers,12.0,6.0,23.950174,19.389856,1,W
-2024,16.0,Sun,2024-12-22 13:00:00,W,RAM,New York Jets,19.0,9.0,24.749168,21.267017,1,W
-2024,17.0,Sat,2024-12-28 20:10:00,L,RAM,Arizona Cardinals,13.0,9.0,23.119867,24.219414,0,L
-2024,1.0,Mon,2024-09-09 20:15:00,L,San Francisco 49ers,New York Jets,32.0,19.0,17.16665,18.455881,0,L
-2024,2.0,Sun,2024-09-15 13:00:00,W,San Francisco 49ers,Minnesota Vikings,17.0,23.0,20.766424,20.387804,1,W
-2024,3.0,Sun,2024-09-22 16:25:00,W,San Francisco 49ers,Los Angeles Rams,24.0,27.0,22.536037,19.087652,1,W
-2024,4.0,Sun,2024-09-29 16:05:00,W,San Francisco 49ers,New England Patriots,30.0,13.0,28.227571,16.453308,1,W
-2024,5.0,Sun,2024-10-06 16:05:00,W,San Francisco 49ers,Arizona Cardinals,23.0,24.0,28.52645,21.348534,1,W
-2024,6.0,Thu,2024-10-10 20:15:00,W,San Francisco 49ers,Seattle Seahawks,36.0,24.0,25.037003,19.9977,1,W
-2024,7.0,Sun,2024-10-20 16:25:00,W,San Francisco 49ers,Kansas City Chiefs,18.0,28.0,27.18986,19.776428,1,W
-2024,8.0,Sun,2024-10-27 20:20:00,W,San Francisco 49ers,Dallas Cowboys,30.0,24.0,27.362959,20.946526,1,W
-2024,10.0,Sun,2024-11-10 13:00:00,L,San Francisco 49ers,Tampa Bay Buccaneers,23.0,20.0,22.623785,24.913776,0,L
-2024,11.0,Sun,2024-11-17 16:05:00,W,San Francisco 49ers,Seattle Seahawks,17.0,20.0,26.434587,20.398369,1,W
-2024,12.0,Sun,2024-11-24 16:25:00,L,San Francisco 49ers,Green Bay Packers,10.0,38.0,22.647501,26.568289,0,L
-2024,13.0,Sun,2024-12-01 20:20:00,L,San Francisco 49ers,Buffalo Bills,10.0,35.0,20.874418,30.028011,0,L
-2024,14.0,Sun,2024-12-08 16:25:00,L,San Francisco 49ers,Chicago Bears,38.0,13.0,20.670904,23.253742,0,L
-2024,15.0,Thu,2024-12-12 20:15:00,L,San Francisco 49ers,Los Angeles Rams,6.0,12.0,18.765095,23.664537,0,L
-2024,16.0,Sun,2024-12-22 16:25:00,L,San Francisco 49ers,Miami Dolphins,17.0,29.0,21.158987,27.377195,0,L
-2024,17.0,Mon,2024-12-30 20:15:00,W,San Francisco 49ers,Detroit Lions,34.0,40.0,24.268227,20.624388,1,W
-2024,1.0,Sun,2024-09-08 16:05:00,W,Seattle Seahawks,Denver Broncos,26.0,20.0,35.247948,22.165468,1,W
-2024,2.0,Sun,2024-09-15 13:00:00,L,Seattle Seahawks,New England Patriots,23.0,20.0,20.252104,23.672157,0,L
-2024,3.0,Sun,2024-09-22 16:05:00,W,Seattle Seahawks,Miami Dolphins,24.0,3.0,28.240728,23.668823,1,W
-2024,4.0,Mon,2024-09-30 20:15:00,L,Seattle Seahawks,Detroit Lions,29.0,42.0,19.399193,24.897165,0,L
-2024,5.0,Sun,2024-10-06 16:25:00,W,Seattle Seahawks,New York Giants,20.0,29.0,26.151297,17.696945,1,W
-2024,6.0,Thu,2024-10-10 20:15:00,L,Seattle Seahawks,San Francisco 49ers,24.0,36.0,19.963577,26.341381,0,L
-2024,7.0,Sun,2024-10-20 13:00:00,L,Seattle Seahawks,Atlanta Falcons,34.0,14.0,16.88939,22.90137,0,L
-2024,8.0,Sun,2024-10-27 16:05:00,W,Seattle Seahawks,Buffalo Bills,10.0,31.0,23.733765,22.517035,1,W
-2024,9.0,Sun,2024-11-03 16:25:00,L,Seattle Seahawks,Los Angeles Rams,20.0,26.0,22.668894,23.755829,0,L
-2024,11.0,Sun,2024-11-17 16:05:00,L,Seattle Seahawks,San Francisco 49ers,20.0,17.0,22.149834,29.253933,0,L
-2024,12.0,Sun,2024-11-24 16:25:00,L,Seattle Seahawks,Arizona Cardinals,16.0,6.0,22.380209,24.609898,0,L
-2024,13.0,Sun,2024-12-01 13:00:00,W,Seattle Seahawks,New York Jets,26.0,21.0,22.222345,21.117277,1,W
-2024,14.0,Sun,2024-12-08 16:05:00,L,Seattle Seahawks,Arizona Cardinals,30.0,18.0,19.737598,28.920929,0,L
-2024,15.0,Sun,2024-12-15 20:20:00,W,Seattle Seahawks,Green Bay Packers,13.0,30.0,24.856192,23.559818,1,W
-2024,16.0,Sun,2024-12-22 16:05:00,L,Seattle Seahawks,Minnesota Vikings,24.0,27.0,23.200613,25.14908,0,L
-2024,17.0,Thu,2024-12-26 20:15:00,W,Seattle Seahawks,Chicago Bears,6.0,3.0,20.703793,20.398815,1,W
-2024,1.0,Sun,2024-09-08 16:25:00,L,Tampa Bay Buccaneers,Washington Commanders,37.0,20.0,22.844023,28.886812,0,L
-2024,2.0,Sun,2024-09-15 13:00:00,L,Tampa Bay Buccaneers,Detroit Lions,20.0,16.0,22.999651,24.299719,0,L
-2024,3.0,Sun,2024-09-22 13:00:00,W,Tampa Bay Buccaneers,Denver Broncos,7.0,26.0,29.526327,19.848654,1,W
-2024,4.0,Sun,2024-09-29 13:00:00,W,Tampa Bay Buccaneers,Philadelphia Eagles,33.0,16.0,25.884855,25.504072,1,W
-2024,5.0,Thu,2024-10-03 20:15:00,L,Tampa Bay Buccaneers,Atlanta Falcons,30.0,36.0,22.799849,25.969105,0,L
-2024,6.0,Sun,2024-10-13 13:00:00,W,Tampa Bay Buccaneers,New Orleans Saints,51.0,27.0,23.527697,18.634367,1,W
-2024,7.0,Mon,2024-10-21 20:15:00,L,Tampa Bay Buccaneers,Baltimore Ravens,31.0,41.0,21.394346,28.245436,0,L
-2024,8.0,Sun,2024-10-27 13:00:00,L,Tampa Bay Buccaneers,Atlanta Falcons,26.0,31.0,22.129385,22.491209,0,L
-2024,9.0,Mon,2024-11-04 20:15:00,L,Tampa Bay Buccaneers,Kansas City Chiefs,24.0,30.0,18.25598,22.59009,0,L
-2024,10.0,Sun,2024-11-10 13:00:00,L,Tampa Bay Buccaneers,San Francisco 49ers,20.0,23.0,24.287077,27.73171,0,L
-2024,12.0,Sun,2024-11-24 13:00:00,L,Tampa Bay Buccaneers,New York Giants,30.0,7.0,11.868634,17.5581,0,L
-2024,13.0,Sun,2024-12-01 16:05:00,W,Tampa Bay Buccaneers,Carolina Panthers,26.0,23.0,26.913572,24.653309,1,W
-2024,14.0,Sun,2024-12-08 13:00:00,W,Tampa Bay Buccaneers,Las Vegas Raiders,28.0,13.0,25.501745,23.276466,1,W
-2024,15.0,Sun,2024-12-15 16:25:00,W,Tampa Bay Buccaneers,Los Angeles Chargers,40.0,17.0,27.141857,20.496521,1,W
-2024,16.0,Sun,2024-12-22 20:20:00,W,Tampa Bay Buccaneers,Dallas Cowboys,24.0,26.0,25.967278,22.449982,1,W
-2024,17.0,Sun,2024-12-29 13:00:00,W,Tampa Bay Buccaneers,Carolina Panthers,48.0,14.0,29.76232,18.141115,1,W
-2024,1.0,Sun,2024-09-08 13:00:00,L,Tennessee Titans,Chicago Bears,17.0,24.0,18.540089,24.18375,0,L
-2024,2.0,Sun,2024-09-15 13:00:00,W,Tennessee Titans,New York Jets,17.0,24.0,19.414755,18.852615,1,W
-2024,3.0,Sun,2024-09-22 13:00:00,W,Tennessee Titans,Green Bay Packers,14.0,30.0,23.24249,19.144297,1,W
-2024,4.0,Mon,2024-09-30 19:30:00,W,Tennessee Titans,Miami Dolphins,31.0,12.0,25.611042,21.803099,1,W
-2024,6.0,Sun,2024-10-13 13:00:00,L,Tennessee Titans,Indianapolis Colts,17.0,20.0,17.01984,21.247559,0,L
-2024,7.0,Sun,2024-10-20 13:00:00,L,Tennessee Titans,Buffalo Bills,10.0,34.0,22.516598,26.156479,0,L
-2024,8.0,Sun,2024-10-27 13:00:00,L,Tennessee Titans,Detroit Lions,14.0,52.0,21.050453,25.301561,0,L
-2024,9.0,Sun,2024-11-03 13:00:00,W,Tennessee Titans,New England Patriots,20.0,17.0,19.059078,17.557316,1,W
-2024,10.0,Sun,2024-11-10 16:05:00,W,Tennessee Titans,Los Angeles Chargers,17.0,27.0,23.631874,19.936502,1,W
-2024,11.0,Sun,2024-11-17 13:00:00,L,Tennessee Titans,Minnesota Vikings,13.0,23.0,18.31639,23.29605,0,L
-2024,12.0,Sun,2024-11-24 13:00:00,L,Tennessee Titans,Houston Texans,32.0,27.0,18.293856,21.765017,0,L
-2024,13.0,Sun,2024-12-01 13:00:00,W,Tennessee Titans,Washington Commanders,19.0,42.0,20.464188,17.689976,1,W
-2024,14.0,Sun,2024-12-08 13:00:00,W,Tennessee Titans,Jacksonville Jaguars,6.0,10.0,27.385643,20.970783,1,W
-2024,15.0,Sun,2024-12-15 13:00:00,W,Tennessee Titans,Cincinnati Bengals,27.0,37.0,25.171629,24.333357,1,W
-2024,16.0,Sun,2024-12-22 13:00:00,L,Tennessee Titans,Indianapolis Colts,30.0,38.0,16.932959,18.257557,0,L
-2024,17.0,Sun,2024-12-29 13:00:00,W,Tennessee Titans,Jacksonville Jaguars,13.0,20.0,22.418606,18.977713,1,W
-2024,1.0,Sun,2024-09-08 16:25:00,W,Washington Commanders,Tampa Bay Buccaneers,20.0,37.0,34.97579,20.45723,1,W
-2024,2.0,Sun,2024-09-15 13:00:00,W,Washington Commanders,New York Giants,21.0,18.0,30.657278,20.829206,1,W
-2024,3.0,Mon,2024-09-23 20:15:00,W,Washington Commanders,Cincinnati Bengals,38.0,33.0,22.1007,18.596432,1,W
-2024,4.0,Sun,2024-09-29 16:05:00,L,Washington Commanders,Arizona Cardinals,42.0,14.0,22.135107,27.081444,0,L
-2024,5.0,Sun,2024-10-06 13:00:00,W,Washington Commanders,Cleveland Browns,34.0,13.0,29.571564,18.868067,1,W
-2024,6.0,Sun,2024-10-13 13:00:00,L,Washington Commanders,Baltimore Ravens,23.0,30.0,26.688093,32.00657,0,L
-2024,7.0,Sun,2024-10-20 16:05:00,W,Washington Commanders,Carolina Panthers,40.0,7.0,27.548695,20.346375,1,W
-2024,8.0,Sun,2024-10-27 16:25:00,W,Washington Commanders,Chicago Bears,18.0,15.0,23.682196,23.606483,1,W
-2024,9.0,Sun,2024-11-03 13:00:00,L,Washington Commanders,New York Giants,27.0,22.0,22.869959,23.520643,0,L
-2024,10.0,Sun,2024-11-10 13:00:00,W,Washington Commanders,Pittsburgh Steelers,27.0,28.0,27.273293,20.736656,1,W
-2024,11.0,Thu,2024-11-14 20:15:00,L,Washington Commanders,Philadelphia Eagles,18.0,26.0,17.94019,35.072475,0,L
-2024,12.0,Sun,2024-11-24 13:00:00,W,Washington Commanders,Dallas Cowboys,26.0,34.0,24.002768,23.13597,1,W
-2024,13.0,Sun,2024-12-01 13:00:00,W,Washington Commanders,Tennessee Titans,42.0,19.0,21.704325,19.306053,1,W
-2024,15.0,Sun,2024-12-15 13:00:00,L,Washington Commanders,New Orleans Saints,20.0,19.0,22.04761,22.803164,0,L
-2024,16.0,Sun,2024-12-22 13:00:00,W,Washington Commanders,Philadelphia Eagles,36.0,33.0,23.75907,23.669079,1,W
-2024,17.0,Sun,2024-12-29 20:20:00,W,Washington Commanders,Atlanta Falcons,30.0,24.0,26.65165,19.091778,1,W
+season,week,day,kickoff_at,pred_result,team,opponent,pred_team_score,pred_opponent_score
+2024,1.0,Sun,2024-09-08 13:00:00,W,ATL,Pittsburgh Steelers,24.792469,21.99183
+2024,2.0,Mon,2024-09-16 20:15:00,L,ATL,Philadelphia Eagles,21.22166,26.116844
+2024,3.0,Sun,2024-09-22 20:20:00,W,ATL,Kansas City Chiefs,23.719864,21.153955
+2024,4.0,Sun,2024-09-29 13:00:00,L,ATL,New Orleans Saints,21.359129,23.539473
+2024,5.0,Thu,2024-10-03 20:15:00,W,ATL,Tampa Bay Buccaneers,22.663572,22.34237
+2024,6.0,Sun,2024-10-13 16:25:00,W,ATL,Carolina Panthers,22.9333,22.801754
+2024,7.0,Sun,2024-10-20 13:00:00,W,ATL,Seattle Seahawks,24.508535,21.122375
+2024,8.0,Sun,2024-10-27 13:00:00,W,ATL,Tampa Bay Buccaneers,24.304182,22.560812
+2024,9.0,Sun,2024-11-03 13:00:00,W,ATL,Dallas Cowboys,25.267376,21.039036
+2024,10.0,Sun,2024-11-10 13:00:00,W,ATL,New Orleans Saints,22.088411,20.520859
+2024,11.0,Sun,2024-11-17 16:05:00,W,ATL,Denver Broncos,25.063402,21.768845
+2024,13.0,Sun,2024-12-01 13:00:00,L,ATL,Los Angeles Chargers,21.896547,23.65871
+2024,14.0,Sun,2024-12-08 13:00:00,L,ATL,Minnesota Vikings,21.429152,23.579208
+2024,15.0,Mon,2024-12-16 20:30:00,L,ATL,Las Vegas Raiders,21.475113,22.237486
+2024,16.0,Sun,2024-12-22 13:00:00,W,ATL,New York Giants,22.144033,19.359526
+2024,17.0,Sun,2024-12-29 20:20:00,L,ATL,Washington Commanders,22.328629,24.93518
+2024,1.0,Sun,2024-09-08 13:00:00,L,BUF,Arizona Cardinals,22.636559,24.013279
+2024,2.0,Thu,2024-09-12 20:15:00,W,BUF,Miami Dolphins,22.650568,21.472513
+2024,3.0,Mon,2024-09-23 19:30:00,W,BUF,Jacksonville Jaguars,23.328753,21.21986
+2024,4.0,Sun,2024-09-29 20:20:00,L,BUF,Baltimore Ravens,23.317947,25.035421
+2024,5.0,Sun,2024-10-06 13:00:00,W,BUF,Houston Texans,23.124615,22.30438
+2024,6.0,Mon,2024-10-14 20:15:00,W,BUF,New York Jets,22.181814,20.815645
+2024,7.0,Sun,2024-10-20 13:00:00,W,BUF,Tennessee Titans,22.237488,20.50076
+2024,8.0,Sun,2024-10-27 16:05:00,W,BUF,Seattle Seahawks,23.1742,23.079277
+2024,9.0,Sun,2024-11-03 13:00:00,W,BUF,Miami Dolphins,25.469967,20.595036
+2024,10.0,Sun,2024-11-10 13:00:00,W,BUF,Indianapolis Colts,24.619337,19.925005
+2024,11.0,Sun,2024-11-17 16:25:00,W,BUF,Kansas City Chiefs,25.756805,22.537577
+2024,13.0,Sun,2024-12-01 20:20:00,W,BUF,San Francisco 49ers,26.24495,21.444845
+2024,14.0,Sun,2024-12-08 16:25:00,W,BUF,Los Angeles Rams,25.277185,22.65217
+2024,15.0,Sun,2024-12-15 16:25:00,L,BUF,Detroit Lions,23.80976,24.671852
+2024,16.0,Sun,2024-12-22 16:25:00,W,BUF,New England Patriots,25.055971,23.4412
+2024,17.0,Sun,2024-12-29 13:00:00,W,BUF,New York Jets,25.192831,23.471073
+2024,1.0,Sun,2024-09-08 13:00:00,L,CAR,New Orleans Saints,21.525549,23.518076
+2024,2.0,Sun,2024-09-15 13:00:00,L,CAR,Los Angeles Chargers,18.760115,22.734846
+2024,3.0,Sun,2024-09-22 16:05:00,L,CAR,Las Vegas Raiders,21.060347,23.017883
+2024,4.0,Sun,2024-09-29 13:00:00,L,CAR,Cincinnati Bengals,20.719603,21.828344
+2024,5.0,Sun,2024-10-06 13:00:00,W,CAR,Chicago Bears,21.295311,21.118433
+2024,6.0,Sun,2024-10-13 16:25:00,L,CAR,Atlanta Falcons,22.424208,22.61995
+2024,7.0,Sun,2024-10-20 16:05:00,L,CAR,Washington Commanders,21.424776,26.266596
+2024,8.0,Sun,2024-10-27 16:25:00,L,CAR,Denver Broncos,20.45918,22.872393
+2024,9.0,Sun,2024-11-03 13:00:00,L,CAR,New Orleans Saints,20.884193,21.479782
+2024,10.0,Sun,2024-11-10 09:30:00,L,CAR,New York Giants,19.430498,20.334606
+2024,12.0,Sun,2024-11-24 13:00:00,L,CAR,Kansas City Chiefs,20.946766,22.79771
+2024,13.0,Sun,2024-12-01 16:05:00,L,CAR,Tampa Bay Buccaneers,22.798628,23.111538
+2024,14.0,Sun,2024-12-08 13:00:00,L,CAR,Philadelphia Eagles,21.24086,25.112362
+2024,15.0,Sun,2024-12-15 13:00:00,W,CAR,Dallas Cowboys,22.966166,22.149399
+2024,16.0,Sun,2024-12-22 13:00:00,L,CAR,Arizona Cardinals,22.111692,24.566765
+2024,17.0,Sun,2024-12-29 13:00:00,L,CAR,Tampa Bay Buccaneers,19.63899,24.867655
+2024,1.0,Sun,2024-09-08 13:00:00,W,CHI,Tennessee Titans,23.102728,20.589863
+2024,2.0,Sun,2024-09-15 20:20:00,L,CHI,Houston Texans,20.913263,22.374134
+2024,3.0,Sun,2024-09-22 13:00:00,L,CHI,Indianapolis Colts,19.646868,23.138945
+2024,4.0,Sun,2024-09-29 13:00:00,W,CHI,Los Angeles Rams,21.633696,21.60527
+2024,5.0,Sun,2024-10-06 13:00:00,W,CHI,Carolina Panthers,21.405777,21.078188
+2024,6.0,Sun,2024-10-13 09:30:00,W,CHI,Jacksonville Jaguars,24.79012,20.990423
+2024,8.0,Sun,2024-10-27 16:25:00,L,CHI,Washington Commanders,23.607685,25.274803
+2024,9.0,Sun,2024-11-03 16:05:00,W,CHI,Arizona Cardinals,24.824163,22.192678
+2024,10.0,Sun,2024-11-10 13:00:00,W,CHI,New England Patriots,20.964586,20.955406
+2024,11.0,Sun,2024-11-17 13:00:00,L,CHI,Green Bay Packers,20.128386,21.831982
+2024,12.0,Sun,2024-11-24 13:00:00,L,CHI,Minnesota Vikings,21.579067,23.330486
+2024,13.0,Thu,2024-11-28 12:30:00,L,CHI,Detroit Lions,21.788595,26.159784
+2024,14.0,Sun,2024-12-08 16:25:00,L,CHI,San Francisco 49ers,21.295918,21.765726
+2024,15.0,Mon,2024-12-16 20:00:00,L,CHI,Minnesota Vikings,22.433184,25.558073
+2024,16.0,Sun,2024-12-22 13:00:00,L,CHI,Detroit Lions,20.618856,24.919111
+2024,17.0,Thu,2024-12-26 20:15:00,L,CHI,Seattle Seahawks,20.805836,22.784155
+2024,1.0,Sun,2024-09-08 13:00:00,W,CIN,New England Patriots,21.723072,20.461124
+2024,2.0,Sun,2024-09-15 16:25:00,L,CIN,Kansas City Chiefs,21.62849,23.56575
+2024,3.0,Mon,2024-09-23 20:15:00,W,CIN,Washington Commanders,21.661335,20.701138
+2024,4.0,Sun,2024-09-29 13:00:00,W,CIN,Carolina Panthers,21.4997,20.76833
+2024,5.0,Sun,2024-10-06 13:00:00,L,CIN,Baltimore Ravens,24.160637,24.501951
+2024,6.0,Sun,2024-10-13 20:20:00,L,CIN,New York Giants,24.316593,24.50498
+2024,7.0,Sun,2024-10-20 13:00:00,W,CIN,Cleveland Browns,24.02561,21.601116
+2024,8.0,Sun,2024-10-27 13:00:00,L,CIN,Philadelphia Eagles,22.03505,22.419584
+2024,9.0,Sun,2024-11-03 13:00:00,W,CIN,Las Vegas Raiders,20.935547,20.93342
+2024,10.0,Thu,2024-11-07 20:15:00,L,CIN,Baltimore Ravens,22.194086,25.666067
+2024,11.0,Sun,2024-11-17 20:20:00,W,CIN,Los Angeles Chargers,24.309614,24.176992
+2024,13.0,Sun,2024-12-01 13:00:00,W,CIN,Pittsburgh Steelers,24.253475,21.024693
+2024,14.0,Mon,2024-12-09 20:15:00,L,CIN,Dallas Cowboys,22.316034,24.158855
+2024,15.0,Sun,2024-12-15 13:00:00,W,CIN,Tennessee Titans,23.821688,22.072668
+2024,16.0,Sun,2024-12-22 13:00:00,W,CIN,Cleveland Browns,24.626724,21.53089
+2024,17.0,Sat,2024-12-28 16:30:00,W,CIN,Denver Broncos,25.790195,20.35983
+2024,1.0,Sun,2024-09-08 16:25:00,W,CLE,Dallas Cowboys,23.394026,21.685236
+2024,2.0,Sun,2024-09-15 13:00:00,L,CLE,Jacksonville Jaguars,20.72094,21.391256
+2024,3.0,Sun,2024-09-22 13:00:00,W,CLE,New York Giants,19.97853,19.834452
+2024,4.0,Sun,2024-09-29 16:25:00,L,CLE,Las Vegas Raiders,20.661823,22.750639
+2024,5.0,Sun,2024-10-06 13:00:00,L,CLE,Washington Commanders,20.7838,25.07623
+2024,6.0,Sun,2024-10-13 13:00:00,L,CLE,Philadelphia Eagles,18.57919,21.369617
+2024,7.0,Sun,2024-10-20 13:00:00,L,CLE,Cincinnati Bengals,21.316227,24.267675
+2024,8.0,Sun,2024-10-27 13:00:00,L,CLE,Baltimore Ravens,21.365194,23.664762
+2024,9.0,Sun,2024-11-03 13:00:00,W,CLE,Los Angeles Chargers,22.29895,22.252123
+2024,11.0,Sun,2024-11-17 13:00:00,L,CLE,New Orleans Saints,21.704758,22.196093
+2024,12.0,Thu,2024-11-21 20:15:00,L,CLE,Pittsburgh Steelers,21.798122,21.940384
+2024,13.0,Mon,2024-12-02 20:15:00,L,CLE,Denver Broncos,21.574608,23.09137
+2024,14.0,Sun,2024-12-08 13:00:00,L,CLE,Pittsburgh Steelers,21.990118,24.194519
+2024,15.0,Sun,2024-12-15 13:00:00,L,CLE,Kansas City Chiefs,22.46834,23.602074
+2024,16.0,Sun,2024-12-22 13:00:00,L,CLE,Cincinnati Bengals,21.937471,24.26592
+2024,17.0,Sun,2024-12-29 16:05:00,L,CLE,Miami Dolphins,20.64442,22.045908
+2024,1.0,Sun,2024-09-08 13:00:00,L,CLT,Houston Texans,21.900599,22.047625
+2024,2.0,Sun,2024-09-15 13:00:00,L,CLT,Green Bay Packers,21.764145,22.163506
+2024,3.0,Sun,2024-09-22 13:00:00,W,CLT,Chicago Bears,22.774696,19.367455
+2024,4.0,Sun,2024-09-29 13:00:00,L,CLT,Pittsburgh Steelers,21.373146,22.099718
+2024,5.0,Sun,2024-10-06 13:00:00,W,CLT,Jacksonville Jaguars,20.832527,20.608402
+2024,6.0,Sun,2024-10-13 13:00:00,W,CLT,Tennessee Titans,21.717615,20.106606
+2024,7.0,Sun,2024-10-20 13:00:00,W,CLT,Miami Dolphins,23.93815,20.7955
+2024,8.0,Sun,2024-10-27 13:00:00,L,CLT,Houston Texans,21.355034,22.781357
+2024,9.0,Sun,2024-11-03 20:20:00,L,CLT,Minnesota Vikings,19.767666,22.1047
+2024,10.0,Sun,2024-11-10 13:00:00,L,CLT,Buffalo Bills,20.581203,24.067448
+2024,11.0,Sun,2024-11-17 13:00:00,L,CLT,New York Jets,20.628384,21.935745
+2024,12.0,Sun,2024-11-24 13:00:00,L,CLT,Detroit Lions,20.731068,24.013113
+2024,13.0,Sun,2024-12-01 13:00:00,L,CLT,New England Patriots,20.469242,21.128145
+2024,15.0,Sun,2024-12-15 16:25:00,L,CLT,Denver Broncos,21.746763,23.478657
+2024,16.0,Sun,2024-12-22 13:00:00,L,CLT,Tennessee Titans,20.18555,20.677221
+2024,17.0,Sun,2024-12-29 13:00:00,L,CLT,New York Giants,20.445686,21.877577
+2024,1.0,Sun,2024-09-08 13:00:00,W,CRD,Buffalo Bills,24.226686,22.681776
+2024,2.0,Sun,2024-09-15 16:05:00,W,CRD,Los Angeles Rams,24.008272,22.096247
+2024,3.0,Sun,2024-09-22 16:25:00,W,CRD,Detroit Lions,24.378695,21.570127
+2024,4.0,Sun,2024-09-29 16:05:00,W,CRD,Washington Commanders,24.62592,22.703686
+2024,5.0,Sun,2024-10-06 16:05:00,L,CRD,San Francisco 49ers,20.770803,24.893257
+2024,6.0,Sun,2024-10-13 13:00:00,L,CRD,Green Bay Packers,20.412561,24.287764
+2024,7.0,Mon,2024-10-21 21:00:00,L,CRD,Los Angeles Chargers,20.800406,22.43273
+2024,8.0,Sun,2024-10-27 13:00:00,W,CRD,Miami Dolphins,20.562967,20.15782
+2024,9.0,Sun,2024-11-03 16:05:00,L,CRD,Chicago Bears,21.42752,24.71538
+2024,10.0,Sun,2024-11-10 16:25:00,W,CRD,New York Jets,23.986904,20.950178
+2024,12.0,Sun,2024-11-24 16:25:00,W,CRD,Seattle Seahawks,24.909477,21.616648
+2024,13.0,Sun,2024-12-01 13:00:00,L,CRD,Minnesota Vikings,21.42596,23.848045
+2024,14.0,Sun,2024-12-08 16:05:00,W,CRD,Seattle Seahawks,24.180506,21.429138
+2024,15.0,Sun,2024-12-15 16:25:00,W,CRD,New England Patriots,21.336176,21.270893
+2024,16.0,Sun,2024-12-22 13:00:00,W,CRD,Carolina Panthers,24.988052,22.15156
+2024,17.0,Sat,2024-12-28 20:10:00,W,CRD,Los Angeles Rams,24.172161,22.98743
+2024,1.0,Sun,2024-09-08 16:25:00,L,DAL,Cleveland Browns,21.933586,22.676107
+2024,2.0,Sun,2024-09-15 13:00:00,W,DAL,New Orleans Saints,22.423311,21.521952
+2024,3.0,Sun,2024-09-22 16:25:00,L,DAL,Baltimore Ravens,22.369696,23.191189
+2024,4.0,Thu,2024-09-26 20:15:00,W,DAL,New York Giants,22.637192,20.792974
+2024,5.0,Sun,2024-10-06 20:20:00,L,DAL,Pittsburgh Steelers,20.838957,22.707973
+2024,6.0,Sun,2024-10-13 16:25:00,L,DAL,Detroit Lions,23.076626,23.198677
+2024,8.0,Sun,2024-10-27 20:20:00,L,DAL,San Francisco 49ers,21.08634,23.366379
+2024,9.0,Sun,2024-11-03 13:00:00,L,DAL,Atlanta Falcons,20.58946,24.334267
+2024,10.0,Sun,2024-11-10 16:25:00,L,DAL,Philadelphia Eagles,21.481642,24.379774
+2024,11.0,Mon,2024-11-18 20:15:00,W,DAL,Houston Texans,21.244936,20.435812
+2024,12.0,Sun,2024-11-24 13:00:00,W,DAL,Washington Commanders,21.653643,21.348534
+2024,13.0,Thu,2024-11-28 16:30:00,W,DAL,New York Giants,20.794413,20.706936
+2024,14.0,Mon,2024-12-09 20:15:00,W,DAL,Cincinnati Bengals,23.900719,22.492605
+2024,15.0,Sun,2024-12-15 13:00:00,L,DAL,Carolina Panthers,22.08538,23.123264
+2024,16.0,Sun,2024-12-22 20:20:00,L,DAL,Tampa Bay Buccaneers,22.603485,23.683418
+2024,17.0,Sun,2024-12-29 13:00:00,L,DAL,Philadelphia Eagles,21.46306,23.908808
+2024,1.0,Sun,2024-09-08 16:05:00,L,DEN,Seattle Seahawks,23.381935,24.840734
+2024,2.0,Sun,2024-09-15 16:25:00,W,DEN,Pittsburgh Steelers,22.072311,18.490318
+2024,3.0,Sun,2024-09-22 13:00:00,L,DEN,Tampa Bay Buccaneers,20.483082,24.053568
+2024,4.0,Sun,2024-09-29 13:00:00,L,DEN,New York Jets,20.44583,23.145918
+2024,5.0,Sun,2024-10-06 16:05:00,L,DEN,Las Vegas Raiders,20.349339,21.37214
+2024,6.0,Sun,2024-10-13 16:05:00,W,DEN,Los Angeles Chargers,22.311432,20.850023
+2024,7.0,Thu,2024-10-17 20:15:00,L,DEN,New Orleans Saints,20.736067,21.847801
+2024,8.0,Sun,2024-10-27 16:25:00,W,DEN,Carolina Panthers,22.86499,19.936659
+2024,9.0,Sun,2024-11-03 13:00:00,L,DEN,Baltimore Ravens,22.665415,25.575438
+2024,10.0,Sun,2024-11-10 13:00:00,L,DEN,Kansas City Chiefs,21.811089,24.60443
+2024,11.0,Sun,2024-11-17 16:05:00,L,DEN,Atlanta Falcons,21.781921,25.357439
+2024,12.0,Sun,2024-11-24 16:05:00,W,DEN,Las Vegas Raiders,22.268896,22.102404
+2024,13.0,Mon,2024-12-02 20:15:00,W,DEN,Cleveland Browns,21.879261,21.198921
+2024,15.0,Sun,2024-12-15 16:25:00,W,DEN,Indianapolis Colts,23.691801,21.503817
+2024,16.0,Thu,2024-12-19 20:15:00,W,DEN,Los Angeles Chargers,21.330534,20.587812
+2024,17.0,Sat,2024-12-28 16:30:00,L,DEN,Cincinnati Bengals,20.368355,25.093874
+2024,1.0,Sun,2024-09-08 20:20:00,W,DET,Los Angeles Rams,23.715826,21.17151
+2024,2.0,Sun,2024-09-15 13:00:00,W,DET,Tampa Bay Buccaneers,24.517374,22.550608
+2024,3.0,Sun,2024-09-22 16:25:00,L,DET,Arizona Cardinals,22.382492,23.71314
+2024,4.0,Mon,2024-09-30 20:15:00,W,DET,Seattle Seahawks,23.138655,21.559612
+2024,6.0,Sun,2024-10-13 16:25:00,W,DET,Dallas Cowboys,24.375546,22.44415
+2024,7.0,Sun,2024-10-20 13:00:00,W,DET,Minnesota Vikings,24.75076,22.676126
+2024,8.0,Sun,2024-10-27 13:00:00,W,DET,Tennessee Titans,24.972725,20.259806
+2024,9.0,Sun,2024-11-03 16:25:00,L,DET,Green Bay Packers,23.89824,24.316168
+2024,10.0,Sun,2024-11-10 20:20:00,W,DET,Houston Texans,21.449142,21.291138
+2024,11.0,Sun,2024-11-17 13:00:00,W,DET,Jacksonville Jaguars,23.504951,18.723293
+2024,12.0,Sun,2024-11-24 13:00:00,W,DET,Indianapolis Colts,24.180271,20.67646
+2024,13.0,Thu,2024-11-28 12:30:00,W,DET,Chicago Bears,24.98572,22.04988
+2024,14.0,Thu,2024-12-05 20:15:00,W,DET,Green Bay Packers,24.303644,24.080942
+2024,15.0,Sun,2024-12-15 16:25:00,W,DET,Buffalo Bills,24.664003,22.919168
+2024,16.0,Sun,2024-12-22 13:00:00,W,DET,Chicago Bears,25.585384,21.585987
+2024,17.0,Mon,2024-12-30 20:15:00,W,DET,San Francisco 49ers,23.297188,22.824797
+2024,2.0,Sun,2024-09-15 13:00:00,L,GNB,Indianapolis Colts,22.247763,22.532503
+2024,3.0,Sun,2024-09-22 13:00:00,L,GNB,Tennessee Titans,20.303782,20.45633
+2024,4.0,Sun,2024-09-29 13:00:00,W,GNB,Minnesota Vikings,23.966505,21.291058
+2024,5.0,Sun,2024-10-06 16:25:00,W,GNB,Los Angeles Rams,22.74578,22.11762
+2024,6.0,Sun,2024-10-13 13:00:00,W,GNB,Arizona Cardinals,24.956575,20.463243
+2024,7.0,Sun,2024-10-20 13:00:00,W,GNB,Houston Texans,22.113447,21.758768
+2024,8.0,Sun,2024-10-27 13:00:00,L,GNB,Jacksonville Jaguars,22.317966,23.744928
+2024,9.0,Sun,2024-11-03 16:25:00,W,GNB,Detroit Lions,24.22277,24.050272
+2024,11.0,Sun,2024-11-17 13:00:00,W,GNB,Chicago Bears,21.541473,20.302057
+2024,12.0,Sun,2024-11-24 16:25:00,W,GNB,San Francisco 49ers,24.316023,22.851536
+2024,13.0,Thu,2024-11-28 20:20:00,W,GNB,Miami Dolphins,24.644537,21.692566
+2024,14.0,Thu,2024-12-05 20:15:00,L,GNB,Detroit Lions,24.617105,25.707846
+2024,15.0,Sun,2024-12-15 20:20:00,W,GNB,Seattle Seahawks,22.300863,21.849197
+2024,16.0,Mon,2024-12-23 20:15:00,W,GNB,New Orleans Saints,23.677156,21.36948
+2024,17.0,Sun,2024-12-29 16:25:00,L,GNB,Minnesota Vikings,23.991997,24.269459
+2024,1.0,Sun,2024-09-08 13:00:00,W,HTX,Indianapolis Colts,22.197382,21.746529
+2024,2.0,Sun,2024-09-15 20:20:00,W,HTX,Chicago Bears,23.314777,19.948824
+2024,3.0,Sun,2024-09-22 13:00:00,L,HTX,Minnesota Vikings,20.475164,21.320646
+2024,4.0,Sun,2024-09-29 13:00:00,W,HTX,Jacksonville Jaguars,22.160173,20.16609
+2024,5.0,Sun,2024-10-06 13:00:00,L,HTX,Buffalo Bills,22.38198,23.087528
+2024,6.0,Sun,2024-10-13 13:00:00,W,HTX,New England Patriots,21.845327,20.271788
+2024,7.0,Sun,2024-10-20 13:00:00,W,HTX,Green Bay Packers,22.407494,22.186731
+2024,8.0,Sun,2024-10-27 13:00:00,W,HTX,Indianapolis Colts,23.618538,21.082527
+2024,9.0,Thu,2024-10-31 20:15:00,L,HTX,New York Jets,21.616528,22.183786
+2024,10.0,Sun,2024-11-10 20:20:00,W,HTX,Detroit Lions,21.430735,21.260818
+2024,11.0,Mon,2024-11-18 20:15:00,W,HTX,Dallas Cowboys,20.805216,20.534428
+2024,12.0,Sun,2024-11-24 13:00:00,W,HTX,Tennessee Titans,22.328882,20.880005
+2024,13.0,Sun,2024-12-01 13:00:00,W,HTX,Jacksonville Jaguars,21.284502,20.925392
+2024,15.0,Sun,2024-12-15 13:00:00,L,HTX,Miami Dolphins,22.655926,22.679302
+2024,16.0,Sat,2024-12-21 13:00:00,L,HTX,Kansas City Chiefs,21.360422,21.634764
+2024,17.0,Wed,2024-12-25 16:30:00,L,HTX,Baltimore Ravens,22.266762,24.39042
+2024,1.0,Sun,2024-09-08 13:00:00,L,JAX,Miami Dolphins,21.18798,21.530268
+2024,2.0,Sun,2024-09-15 13:00:00,W,JAX,Cleveland Browns,21.64746,20.254875
+2024,3.0,Mon,2024-09-23 19:30:00,L,JAX,Buffalo Bills,21.968779,24.062742
+2024,4.0,Sun,2024-09-29 13:00:00,L,JAX,Houston Texans,20.622,21.724344
+2024,5.0,Sun,2024-10-06 13:00:00,L,JAX,Indianapolis Colts,20.656742,20.944246
+2024,6.0,Sun,2024-10-13 09:30:00,L,JAX,Chicago Bears,20.683882,23.823442
+2024,7.0,Sun,2024-10-20 09:30:00,W,JAX,New England Patriots,22.513895,22.372663
+2024,8.0,Sun,2024-10-27 13:00:00,W,JAX,Green Bay Packers,23.652838,22.967607
+2024,9.0,Sun,2024-11-03 16:05:00,L,JAX,Philadelphia Eagles,21.040674,25.493517
+2024,10.0,Sun,2024-11-10 13:00:00,W,JAX,Minnesota Vikings,23.509306,22.54349
+2024,11.0,Sun,2024-11-17 13:00:00,L,JAX,Detroit Lions,18.911259,23.790384
+2024,13.0,Sun,2024-12-01 13:00:00,L,JAX,Houston Texans,20.332443,22.199627
+2024,14.0,Sun,2024-12-08 13:00:00,L,JAX,Tennessee Titans,20.240374,22.508835
+2024,15.0,Sun,2024-12-15 13:00:00,L,JAX,New York Jets,21.248068,22.651709
+2024,16.0,Sun,2024-12-22 16:25:00,L,JAX,Las Vegas Raiders,21.820578,22.062485
+2024,17.0,Sun,2024-12-29 13:00:00,W,JAX,Tennessee Titans,21.747639,21.195328
+2024,2.0,Sun,2024-09-15 16:25:00,W,KAN,Cincinnati Bengals,23.325018,21.90514
+2024,3.0,Sun,2024-09-22 20:20:00,L,KAN,Atlanta Falcons,21.170065,24.040033
+2024,4.0,Sun,2024-09-29 16:25:00,W,KAN,Los Angeles Chargers,20.774286,20.55426
+2024,5.0,Mon,2024-10-07 20:15:00,L,KAN,New Orleans Saints,20.943317,21.546438
+2024,7.0,Sun,2024-10-20 16:25:00,L,KAN,San Francisco 49ers,21.918856,25.82768
+2024,8.0,Sun,2024-10-27 16:25:00,W,KAN,Las Vegas Raiders,22.115864,21.108582
+2024,9.0,Mon,2024-11-04 20:15:00,W,KAN,Tampa Bay Buccaneers,23.661367,22.569326
+2024,10.0,Sun,2024-11-10 13:00:00,W,KAN,Denver Broncos,24.356424,21.57513
+2024,11.0,Sun,2024-11-17 16:25:00,L,KAN,Buffalo Bills,22.918768,26.02645
+2024,12.0,Sun,2024-11-24 13:00:00,W,KAN,Carolina Panthers,21.9115,20.310474
+2024,13.0,Fri,2024-11-29 15:00:00,W,KAN,Las Vegas Raiders,24.319218,21.763184
+2024,14.0,Sun,2024-12-08 20:20:00,W,KAN,Los Angeles Chargers,23.696966,22.036186
+2024,15.0,Sun,2024-12-15 13:00:00,W,KAN,Cleveland Browns,23.031141,22.385536
+2024,16.0,Sat,2024-12-21 13:00:00,W,KAN,Houston Texans,21.858559,20.939182
+2024,17.0,Wed,2024-12-25 13:00:00,W,KAN,Pittsburgh Steelers,21.118492,19.469116
+2024,1.0,Sun,2024-09-08 13:00:00,L,MIA,Jacksonville Jaguars,21.237413,21.573648
+2024,2.0,Thu,2024-09-12 20:15:00,L,MIA,Buffalo Bills,21.375477,23.152885
+2024,3.0,Sun,2024-09-22 16:05:00,L,MIA,Seattle Seahawks,21.76696,23.204212
+2024,4.0,Mon,2024-09-30 19:30:00,W,MIA,Tennessee Titans,21.201437,20.58895
+2024,5.0,Sun,2024-10-06 13:00:00,W,MIA,New England Patriots,20.519129,19.986736
+2024,7.0,Sun,2024-10-20 13:00:00,L,MIA,Indianapolis Colts,20.955168,24.15102
+2024,8.0,Sun,2024-10-27 13:00:00,L,MIA,Arizona Cardinals,20.320265,20.860954
+2024,9.0,Sun,2024-11-03 13:00:00,L,MIA,Buffalo Bills,21.111143,25.759249
+2024,10.0,Mon,2024-11-11 20:15:00,L,MIA,Los Angeles Rams,21.859497,22.918186
+2024,11.0,Sun,2024-11-17 13:00:00,W,MIA,Las Vegas Raiders,22.913137,20.20292
+2024,12.0,Sun,2024-11-24 13:00:00,W,MIA,New England Patriots,23.673256,21.16946
+2024,13.0,Thu,2024-11-28 20:20:00,L,MIA,Green Bay Packers,21.73432,24.27085
+2024,14.0,Sun,2024-12-08 13:00:00,W,MIA,New York Jets,24.875406,20.411644
+2024,15.0,Sun,2024-12-15 13:00:00,W,MIA,Houston Texans,23.012741,21.520771
+2024,16.0,Sun,2024-12-22 16:25:00,W,MIA,San Francisco 49ers,22.069437,21.618515
+2024,17.0,Sun,2024-12-29 16:05:00,W,MIA,Cleveland Browns,21.61098,20.66534
+2024,1.0,Sun,2024-09-08 13:00:00,L,MIN,New York Giants,20.30242,20.965275
+2024,2.0,Sun,2024-09-15 13:00:00,L,MIN,San Francisco 49ers,20.91698,23.135338
+2024,3.0,Sun,2024-09-22 13:00:00,W,MIN,Houston Texans,21.4383,20.885635
+2024,4.0,Sun,2024-09-29 13:00:00,L,MIN,Green Bay Packers,21.881079,23.038067
+2024,5.0,Sun,2024-10-06 09:30:00,W,MIN,New York Jets,24.999731,20.974005
+2024,7.0,Sun,2024-10-20 13:00:00,L,MIN,Detroit Lions,23.548698,24.906384
+2024,8.0,Thu,2024-10-24 20:15:00,L,MIN,Los Angeles Rams,21.691465,23.034395
+2024,9.0,Sun,2024-11-03 20:20:00,W,MIN,Indianapolis Colts,22.018194,20.004509
+2024,10.0,Sun,2024-11-10 13:00:00,L,MIN,Jacksonville Jaguars,22.832878,23.417452
+2024,11.0,Sun,2024-11-17 13:00:00,L,MIN,Tennessee Titans,21.340149,21.506632
+2024,12.0,Sun,2024-11-24 13:00:00,W,MIN,Chicago Bears,22.914566,21.041393
+2024,13.0,Sun,2024-12-01 13:00:00,W,MIN,Arizona Cardinals,22.802431,20.83269
+2024,14.0,Sun,2024-12-08 13:00:00,W,MIN,Atlanta Falcons,24.32389,21.435726
+2024,15.0,Mon,2024-12-16 20:00:00,W,MIN,Chicago Bears,26.061844,22.725784
+2024,16.0,Sun,2024-12-22 16:05:00,W,MIN,Seattle Seahawks,23.967937,23.083395
+2024,17.0,Sun,2024-12-29 16:25:00,W,MIN,Green Bay Packers,24.827087,23.814732
+2024,1.0,Sun,2024-09-08 13:00:00,W,NOR,Carolina Panthers,23.553942,21.472675
+2024,2.0,Sun,2024-09-15 13:00:00,L,NOR,Dallas Cowboys,21.792902,22.823158
+2024,3.0,Sun,2024-09-22 13:00:00,W,NOR,Philadelphia Eagles,23.814787,22.415636
+2024,4.0,Sun,2024-09-29 13:00:00,W,NOR,Atlanta Falcons,23.324463,21.454676
+2024,5.0,Mon,2024-10-07 20:15:00,L,NOR,Kansas City Chiefs,21.241478,21.371862
+2024,6.0,Sun,2024-10-13 13:00:00,L,NOR,Tampa Bay Buccaneers,21.02938,22.28787
+2024,7.0,Thu,2024-10-17 20:15:00,W,NOR,Denver Broncos,21.72335,21.381596
+2024,8.0,Sun,2024-10-27 16:05:00,L,NOR,Los Angeles Chargers,20.604631,22.607698
+2024,9.0,Sun,2024-11-03 13:00:00,W,NOR,Carolina Panthers,21.657976,20.778906
+2024,10.0,Sun,2024-11-10 13:00:00,L,NOR,Atlanta Falcons,20.834743,21.821795
+2024,11.0,Sun,2024-11-17 13:00:00,W,NOR,Cleveland Browns,22.822222,21.618813
+2024,13.0,Sun,2024-12-01 16:05:00,W,NOR,Los Angeles Rams,24.503574,21.871334
+2024,14.0,Sun,2024-12-08 13:00:00,W,NOR,New York Giants,23.261246,20.549686
+2024,15.0,Sun,2024-12-15 13:00:00,L,NOR,Washington Commanders,22.239605,23.020098
+2024,16.0,Mon,2024-12-23 20:15:00,L,NOR,Green Bay Packers,21.284853,24.346262
+2024,17.0,Sun,2024-12-29 13:00:00,L,NOR,Las Vegas Raiders,20.323885,21.421387
+2024,1.0,Sun,2024-09-08 13:00:00,L,NWE,Cincinnati Bengals,21.560919,21.865963
+2024,2.0,Sun,2024-09-15 13:00:00,L,NWE,Seattle Seahawks,20.932823,21.072989
+2024,3.0,Thu,2024-09-19 20:15:00,L,NWE,New York Jets,21.173635,22.602135
+2024,4.0,Sun,2024-09-29 16:05:00,L,NWE,San Francisco 49ers,19.897598,24.862028
+2024,5.0,Sun,2024-10-06 13:00:00,L,NWE,Miami Dolphins,20.49431,20.612957
+2024,6.0,Sun,2024-10-13 13:00:00,L,NWE,Houston Texans,20.30496,22.092234
+2024,7.0,Sun,2024-10-20 09:30:00,L,NWE,Jacksonville Jaguars,21.021051,23.223167
+2024,8.0,Sun,2024-10-27 13:00:00,W,NWE,New York Jets,21.345015,21.180037
+2024,9.0,Sun,2024-11-03 13:00:00,W,NWE,Tennessee Titans,20.844307,20.032513
+2024,10.0,Sun,2024-11-10 13:00:00,L,NWE,Chicago Bears,21.213638,21.799181
+2024,11.0,Sun,2024-11-17 13:00:00,L,NWE,Los Angeles Rams,21.490211,22.104876
+2024,12.0,Sun,2024-11-24 13:00:00,L,NWE,Miami Dolphins,21.292973,24.041342
+2024,13.0,Sun,2024-12-01 13:00:00,W,NWE,Indianapolis Colts,21.805725,20.867413
+2024,15.0,Sun,2024-12-15 16:25:00,L,NWE,Arizona Cardinals,21.161821,21.835281
+2024,16.0,Sun,2024-12-22 16:25:00,L,NWE,Buffalo Bills,21.807346,25.093504
+2024,17.0,Sat,2024-12-28 13:00:00,W,NWE,Los Angeles Chargers,23.072626,21.72411
+2024,1.0,Sun,2024-09-08 13:00:00,W,NYG,Minnesota Vikings,21.451435,21.01181
+2024,2.0,Sun,2024-09-15 13:00:00,L,NYG,Washington Commanders,23.40925,24.237001
+2024,3.0,Sun,2024-09-22 13:00:00,W,NYG,Cleveland Browns,20.514961,20.365461
+2024,4.0,Thu,2024-09-26 20:15:00,L,NYG,Dallas Cowboys,21.090199,22.222767
+2024,5.0,Sun,2024-10-06 16:25:00,L,NYG,Seattle Seahawks,21.146193,24.30406
+2024,6.0,Sun,2024-10-13 20:20:00,L,NYG,Cincinnati Bengals,24.027351,24.399294
+2024,7.0,Sun,2024-10-20 13:00:00,W,NYG,Philadelphia Eagles,21.640265,21.044569
+2024,8.0,Mon,2024-10-28 20:15:00,L,NYG,Pittsburgh Steelers,20.360453,23.327274
+2024,9.0,Sun,2024-11-03 13:00:00,L,NYG,Washington Commanders,22.182692,23.89038
+2024,10.0,Sun,2024-11-10 09:30:00,W,NYG,Carolina Panthers,21.134459,19.497154
+2024,12.0,Sun,2024-11-24 13:00:00,W,NYG,Tampa Bay Buccaneers,21.51939,21.25284
+2024,13.0,Thu,2024-11-28 16:30:00,W,NYG,Dallas Cowboys,21.270185,20.519512
+2024,14.0,Sun,2024-12-08 13:00:00,L,NYG,New Orleans Saints,20.800291,23.781557
+2024,15.0,Sun,2024-12-15 13:00:00,L,NYG,Baltimore Ravens,20.783913,21.671257
+2024,16.0,Sun,2024-12-22 13:00:00,L,NYG,Atlanta Falcons,20.201385,22.176506
+2024,17.0,Sun,2024-12-29 13:00:00,W,NYG,Indianapolis Colts,22.198347,21.036358
+2024,1.0,Mon,2024-09-09 20:15:00,L,NYJ,San Francisco 49ers,21.073874,21.987185
+2024,2.0,Sun,2024-09-15 13:00:00,W,NYJ,Tennessee Titans,21.582785,19.910864
+2024,3.0,Thu,2024-09-19 20:15:00,W,NYJ,New England Patriots,22.728615,20.961332
+2024,4.0,Sun,2024-09-29 13:00:00,W,NYJ,Denver Broncos,23.176994,20.983805
+2024,5.0,Sun,2024-10-06 09:30:00,L,NYJ,Minnesota Vikings,21.389824,25.222063
+2024,6.0,Mon,2024-10-14 20:15:00,L,NYJ,Buffalo Bills,21.240143,22.713848
+2024,7.0,Sun,2024-10-20 20:20:00,L,NYJ,Pittsburgh Steelers,20.839756,22.095762
+2024,8.0,Sun,2024-10-27 13:00:00,W,NYJ,New England Patriots,21.57748,20.639372
+2024,9.0,Thu,2024-10-31 20:15:00,W,NYJ,Houston Texans,22.853098,21.439266
+2024,10.0,Sun,2024-11-10 16:25:00,L,NYJ,Arizona Cardinals,20.801126,23.863335
+2024,11.0,Sun,2024-11-17 13:00:00,W,NYJ,Indianapolis Colts,22.275944,20.947199
+2024,13.0,Sun,2024-12-01 13:00:00,L,NYJ,Seattle Seahawks,20.752062,21.589493
+2024,14.0,Sun,2024-12-08 13:00:00,L,NYJ,Miami Dolphins,20.575647,24.200064
+2024,15.0,Sun,2024-12-15 13:00:00,W,NYJ,Jacksonville Jaguars,22.829205,20.30491
+2024,16.0,Sun,2024-12-22 13:00:00,W,NYJ,Los Angeles Rams,22.595781,22.279486
+2024,17.0,Sun,2024-12-29 13:00:00,L,NYJ,Buffalo Bills,24.560202,25.04986
+2024,1.0,Sun,2024-09-08 13:00:00,L,OTI,Chicago Bears,20.897463,22.838026
+2024,2.0,Sun,2024-09-15 13:00:00,L,OTI,New York Jets,20.5731,21.4636
+2024,3.0,Sun,2024-09-22 13:00:00,L,OTI,Green Bay Packers,20.963882,21.01268
+2024,4.0,Mon,2024-09-30 19:30:00,L,OTI,Miami Dolphins,20.643494,21.602552
+2024,6.0,Sun,2024-10-13 13:00:00,L,OTI,Indianapolis Colts,20.626596,21.811357
+2024,7.0,Sun,2024-10-20 13:00:00,L,OTI,Buffalo Bills,20.75779,22.311382
+2024,8.0,Sun,2024-10-27 13:00:00,L,OTI,Detroit Lions,20.839909,24.518633
+2024,9.0,Sun,2024-11-03 13:00:00,L,OTI,New England Patriots,20.928268,21.177763
+2024,10.0,Sun,2024-11-10 16:05:00,L,OTI,Los Angeles Chargers,21.611977,22.021471
+2024,11.0,Sun,2024-11-17 13:00:00,L,OTI,Minnesota Vikings,21.122469,21.325289
+2024,12.0,Sun,2024-11-24 13:00:00,L,OTI,Houston Texans,20.596989,22.068157
+2024,13.0,Sun,2024-12-01 13:00:00,L,OTI,Washington Commanders,21.434978,21.611292
+2024,14.0,Sun,2024-12-08 13:00:00,W,OTI,Jacksonville Jaguars,22.209442,20.611748
+2024,15.0,Sun,2024-12-15 13:00:00,L,OTI,Cincinnati Bengals,22.07338,22.747541
+2024,16.0,Sun,2024-12-22 13:00:00,W,OTI,Indianapolis Colts,21.024693,20.122217
+2024,17.0,Sun,2024-12-29 13:00:00,L,OTI,Jacksonville Jaguars,21.488354,22.252764
+2024,2.0,Mon,2024-09-16 20:15:00,W,PHI,Atlanta Falcons,24.603495,21.867092
+2024,3.0,Sun,2024-09-22 13:00:00,L,PHI,New Orleans Saints,22.395603,24.019806
+2024,4.0,Sun,2024-09-29 13:00:00,W,PHI,Tampa Bay Buccaneers,22.689068,22.24644
+2024,6.0,Sun,2024-10-13 13:00:00,W,PHI,Cleveland Browns,21.808043,19.774376
+2024,7.0,Sun,2024-10-20 13:00:00,L,PHI,New York Giants,20.320002,22.291035
+2024,8.0,Sun,2024-10-27 13:00:00,L,PHI,Cincinnati Bengals,21.882513,22.637135
+2024,9.0,Sun,2024-11-03 16:05:00,W,PHI,Jacksonville Jaguars,25.15447,21.220541
+2024,10.0,Sun,2024-11-10 16:25:00,W,PHI,Dallas Cowboys,24.342842,21.76101
+2024,11.0,Thu,2024-11-14 20:15:00,W,PHI,Washington Commanders,28.323116,20.611265
+2024,12.0,Sun,2024-11-24 20:20:00,W,PHI,Los Angeles Rams,23.42825,22.974121
+2024,13.0,Sun,2024-12-01 16:25:00,W,PHI,Baltimore Ravens,27.532389,23.28728
+2024,14.0,Sun,2024-12-08 13:00:00,W,PHI,Carolina Panthers,25.865757,20.764282
+2024,15.0,Sun,2024-12-15 16:25:00,W,PHI,Pittsburgh Steelers,23.994303,22.735262
+2024,16.0,Sun,2024-12-22 13:00:00,L,PHI,Washington Commanders,21.950914,23.67149
+2024,17.0,Sun,2024-12-29 13:00:00,W,PHI,Dallas Cowboys,23.63242,21.296274
+2024,1.0,Sun,2024-09-08 13:00:00,L,PIT,Atlanta Falcons,21.979626,24.848701
+2024,2.0,Sun,2024-09-15 16:25:00,L,PIT,Denver Broncos,19.553549,22.80428
+2024,3.0,Sun,2024-09-22 13:00:00,L,PIT,Los Angeles Chargers,19.941027,20.496906
+2024,4.0,Sun,2024-09-29 13:00:00,L,PIT,Indianapolis Colts,21.585451,21.723362
+2024,5.0,Sun,2024-10-06 20:20:00,W,PIT,Dallas Cowboys,22.225843,20.662107
+2024,6.0,Sun,2024-10-13 16:05:00,W,PIT,Las Vegas Raiders,21.31191,20.768206
+2024,7.0,Sun,2024-10-20 20:20:00,W,PIT,New York Jets,22.810377,20.744493
+2024,8.0,Mon,2024-10-28 20:15:00,W,PIT,New York Giants,22.814348,20.119623
+2024,10.0,Sun,2024-11-10 13:00:00,L,PIT,Washington Commanders,22.879055,25.995714
+2024,11.0,Sun,2024-11-17 13:00:00,W,PIT,Baltimore Ravens,25.55192,23.730518
+2024,12.0,Thu,2024-11-21 20:15:00,L,PIT,Cleveland Browns,21.757265,22.322285
+2024,13.0,Sun,2024-12-01 13:00:00,L,PIT,Cincinnati Bengals,21.53885,24.930096
+2024,14.0,Sun,2024-12-08 13:00:00,W,PIT,Cleveland Browns,24.009552,21.367758
+2024,15.0,Sun,2024-12-15 16:25:00,L,PIT,Philadelphia Eagles,22.304422,23.69341
+2024,16.0,Sat,2024-12-21 16:30:00,L,PIT,Baltimore Ravens,20.686434,25.985064
+2024,17.0,Wed,2024-12-25 13:00:00,L,PIT,Kansas City Chiefs,19.730642,21.802437
+2024,1.0,Sun,2024-09-08 16:05:00,L,RAI,Los Angeles Chargers,20.93386,21.566277
+2024,2.0,Sun,2024-09-15 13:00:00,L,RAI,Baltimore Ravens,20.814016,25.604
+2024,3.0,Sun,2024-09-22 16:05:00,W,RAI,Carolina Panthers,22.519815,21.338104
+2024,4.0,Sun,2024-09-29 16:25:00,W,RAI,Cleveland Browns,22.703836,21.041525
+2024,5.0,Sun,2024-10-06 16:05:00,W,RAI,Denver Broncos,22.004679,20.875969
+2024,6.0,Sun,2024-10-13 16:05:00,L,RAI,Pittsburgh Steelers,21.048521,21.393877
+2024,7.0,Sun,2024-10-20 16:05:00,L,RAI,Los Angeles Rams,20.351858,24.051046
+2024,8.0,Sun,2024-10-27 16:25:00,L,RAI,Kansas City Chiefs,20.851969,22.56815
+2024,9.0,Sun,2024-11-03 13:00:00,W,RAI,Cincinnati Bengals,21.296907,21.049395
+2024,11.0,Sun,2024-11-17 13:00:00,L,RAI,Miami Dolphins,19.884079,23.763006
+2024,12.0,Sun,2024-11-24 16:05:00,L,RAI,Denver Broncos,21.225155,22.746584
+2024,13.0,Fri,2024-11-29 15:00:00,L,RAI,Kansas City Chiefs,21.813553,25.138952
+2024,14.0,Sun,2024-12-08 13:00:00,L,RAI,Tampa Bay Buccaneers,21.654211,24.124369
+2024,15.0,Mon,2024-12-16 20:30:00,W,RAI,Atlanta Falcons,22.872282,21.077076
+2024,16.0,Sun,2024-12-22 16:25:00,L,RAI,Jacksonville Jaguars,21.815756,22.319805
+2024,17.0,Sun,2024-12-29 13:00:00,W,RAI,New Orleans Saints,20.67557,20.146755
+2024,1.0,Sun,2024-09-08 20:20:00,L,RAM,Detroit Lions,22.48583,23.133297
+2024,2.0,Sun,2024-09-15 16:05:00,L,RAM,Arizona Cardinals,22.787931,23.73939
+2024,3.0,Sun,2024-09-22 16:25:00,L,RAM,San Francisco 49ers,21.302292,22.390123
+2024,4.0,Sun,2024-09-29 13:00:00,L,RAM,Chicago Bears,21.539318,23.937216
+2024,5.0,Sun,2024-10-06 16:25:00,L,RAM,Green Bay Packers,22.099226,22.616287
+2024,7.0,Sun,2024-10-20 16:05:00,W,RAM,Las Vegas Raiders,22.25979,21.803646
+2024,8.0,Thu,2024-10-24 20:15:00,L,RAM,Minnesota Vikings,21.558882,22.307884
+2024,9.0,Sun,2024-11-03 16:25:00,L,RAM,Seattle Seahawks,21.52873,22.773468
+2024,10.0,Mon,2024-11-11 20:15:00,W,RAM,Miami Dolphins,23.590847,21.695318
+2024,11.0,Sun,2024-11-17 13:00:00,W,RAM,New England Patriots,23.331182,22.880327
+2024,12.0,Sun,2024-11-24 20:20:00,W,RAM,Philadelphia Eagles,23.106646,22.327784
+2024,13.0,Sun,2024-12-01 16:05:00,L,RAM,New Orleans Saints,21.658564,23.237583
+2024,14.0,Sun,2024-12-08 16:25:00,W,RAM,Buffalo Bills,24.379387,22.22061
+2024,15.0,Thu,2024-12-12 20:15:00,W,RAM,San Francisco 49ers,23.881166,22.317451
+2024,16.0,Sun,2024-12-22 13:00:00,W,RAM,New York Jets,23.895857,22.977041
+2024,17.0,Sat,2024-12-28 20:10:00,W,RAM,Arizona Cardinals,23.313059,22.309755
+2024,2.0,Sun,2024-09-15 13:00:00,W,RAV,Las Vegas Raiders,25.283161,21.527363
+2024,3.0,Sun,2024-09-22 16:25:00,W,RAV,Dallas Cowboys,22.804108,22.587744
+2024,4.0,Sun,2024-09-29 20:20:00,W,RAV,Buffalo Bills,25.020733,22.127811
+2024,5.0,Sun,2024-10-06 13:00:00,W,RAV,Cincinnati Bengals,24.024925,22.859278
+2024,6.0,Sun,2024-10-13 13:00:00,W,RAV,Washington Commanders,25.689426,22.693537
+2024,7.0,Mon,2024-10-21 20:15:00,W,RAV,Tampa Bay Buccaneers,24.254862,23.844038
+2024,8.0,Sun,2024-10-27 13:00:00,W,RAV,Cleveland Browns,24.81592,21.388428
+2024,9.0,Sun,2024-11-03 13:00:00,W,RAV,Denver Broncos,24.335163,22.06409
+2024,10.0,Thu,2024-11-07 20:15:00,W,RAV,Cincinnati Bengals,24.939432,22.537813
+2024,11.0,Sun,2024-11-17 13:00:00,L,RAV,Pittsburgh Steelers,24.154558,25.150637
+2024,12.0,Mon,2024-11-25 20:15:00,L,RAV,Los Angeles Chargers,23.06531,24.58749
+2024,13.0,Sun,2024-12-01 16:25:00,L,RAV,Philadelphia Eagles,24.341011,26.647114
+2024,15.0,Sun,2024-12-15 13:00:00,W,RAV,New York Giants,21.176163,21.109615
+2024,16.0,Sat,2024-12-21 16:30:00,W,RAV,Pittsburgh Steelers,24.854805,20.625225
+2024,17.0,Wed,2024-12-25 16:30:00,W,RAV,Houston Texans,24.00024,21.951925
+2024,1.0,Sun,2024-09-08 16:05:00,L,SDG,Las Vegas Raiders,21.605774,22.079956
+2024,2.0,Sun,2024-09-15 13:00:00,W,SDG,Carolina Panthers,22.602345,19.023296
+2024,3.0,Sun,2024-09-22 13:00:00,L,SDG,Pittsburgh Steelers,19.723864,20.305359
+2024,4.0,Sun,2024-09-29 16:25:00,L,SDG,Kansas City Chiefs,19.891985,21.087326
+2024,6.0,Sun,2024-10-13 16:05:00,L,SDG,Denver Broncos,20.170612,21.587181
+2024,7.0,Mon,2024-10-21 21:00:00,W,SDG,Arizona Cardinals,22.462744,21.382082
+2024,8.0,Sun,2024-10-27 16:05:00,W,SDG,New Orleans Saints,22.245102,20.830618
+2024,9.0,Sun,2024-11-03 13:00:00,L,SDG,Cleveland Browns,22.496387,22.539757
+2024,10.0,Sun,2024-11-10 16:05:00,W,SDG,Tennessee Titans,21.884981,21.478268
+2024,11.0,Sun,2024-11-17 20:20:00,W,SDG,Cincinnati Bengals,23.963709,23.379744
+2024,12.0,Mon,2024-11-25 20:15:00,W,SDG,Baltimore Ravens,24.441364,23.076406
+2024,13.0,Sun,2024-12-01 13:00:00,W,SDG,Atlanta Falcons,23.6091,22.237457
+2024,14.0,Sun,2024-12-08 20:20:00,L,SDG,Kansas City Chiefs,21.749731,24.161053
+2024,15.0,Sun,2024-12-15 16:25:00,L,SDG,Tampa Bay Buccaneers,21.47252,23.987183
+2024,16.0,Thu,2024-12-19 20:15:00,L,SDG,Denver Broncos,20.897064,22.397024
+2024,17.0,Sat,2024-12-28 13:00:00,L,SDG,New England Patriots,20.899529,23.859781
+2024,1.0,Sun,2024-09-08 16:05:00,W,SEA,Denver Broncos,24.367945,23.573114
+2024,2.0,Sun,2024-09-15 13:00:00,L,SEA,New England Patriots,20.938526,21.317877
+2024,3.0,Sun,2024-09-22 16:05:00,W,SEA,Miami Dolphins,23.862158,21.888882
+2024,4.0,Mon,2024-09-30 20:15:00,L,SEA,Detroit Lions,22.038063,23.507418
+2024,5.0,Sun,2024-10-06 16:25:00,W,SEA,New York Giants,24.323715,21.111675
+2024,6.0,Thu,2024-10-10 20:15:00,L,SEA,San Francisco 49ers,22.465277,23.829945
+2024,7.0,Sun,2024-10-20 13:00:00,L,SEA,Atlanta Falcons,21.712177,24.00617
+2024,8.0,Sun,2024-10-27 16:05:00,L,SEA,Buffalo Bills,23.214891,23.619343
+2024,9.0,Sun,2024-11-03 16:25:00,W,SEA,Los Angeles Rams,22.966661,22.718744
+2024,11.0,Sun,2024-11-17 16:05:00,L,SEA,San Francisco 49ers,21.464388,24.726435
+2024,12.0,Sun,2024-11-24 16:25:00,L,SEA,Arizona Cardinals,21.4439,24.888672
+2024,13.0,Sun,2024-12-01 13:00:00,W,SEA,New York Jets,21.807756,21.082333
+2024,14.0,Sun,2024-12-08 16:05:00,L,SEA,Arizona Cardinals,21.18714,24.284435
+2024,15.0,Sun,2024-12-15 20:20:00,W,SEA,Green Bay Packers,22.364542,21.715485
+2024,16.0,Sun,2024-12-22 16:05:00,L,SEA,Minnesota Vikings,22.115705,23.676968
+2024,17.0,Thu,2024-12-26 20:15:00,W,SEA,Chicago Bears,22.03979,20.818583
+2024,1.0,Mon,2024-09-09 20:15:00,W,SFO,New York Jets,22.28575,21.38592
+2024,2.0,Sun,2024-09-15 13:00:00,W,SFO,Minnesota Vikings,24.278107,20.816765
+2024,3.0,Sun,2024-09-22 16:25:00,W,SFO,Los Angeles Rams,22.889763,22.197111
+2024,4.0,Sun,2024-09-29 16:05:00,W,SFO,New England Patriots,25.560493,20.348335
+2024,5.0,Sun,2024-10-06 16:05:00,W,SFO,Arizona Cardinals,25.11736,20.607946
+2024,6.0,Thu,2024-10-10 20:15:00,W,SFO,Seattle Seahawks,23.950033,22.925848
+2024,7.0,Sun,2024-10-20 16:25:00,W,SFO,Kansas City Chiefs,24.788136,21.678995
+2024,8.0,Sun,2024-10-27 20:20:00,W,SFO,Dallas Cowboys,23.931099,21.169743
+2024,10.0,Sun,2024-11-10 13:00:00,W,SFO,Tampa Bay Buccaneers,25.42012,23.746357
+2024,11.0,Sun,2024-11-17 16:05:00,W,SFO,Seattle Seahawks,24.543911,21.369705
+2024,12.0,Sun,2024-11-24 16:25:00,L,SFO,Green Bay Packers,23.427452,24.729704
+2024,13.0,Sun,2024-12-01 20:20:00,L,SFO,Buffalo Bills,21.895983,25.091131
+2024,14.0,Sun,2024-12-08 16:25:00,L,SFO,Chicago Bears,19.896301,22.141356
+2024,15.0,Thu,2024-12-12 20:15:00,L,SFO,Los Angeles Rams,21.629114,22.727476
+2024,16.0,Sun,2024-12-22 16:25:00,L,SFO,Miami Dolphins,20.423876,23.451696
+2024,17.0,Mon,2024-12-30 20:15:00,L,SFO,Detroit Lions,22.732405,23.552628
+2024,1.0,Sun,2024-09-08 16:25:00,L,TAM,Washington Commanders,22.158798,25.07991
+2024,2.0,Sun,2024-09-15 13:00:00,L,TAM,Detroit Lions,23.231503,24.1394
+2024,3.0,Sun,2024-09-22 13:00:00,W,TAM,Denver Broncos,22.53979,20.443169
+2024,4.0,Sun,2024-09-29 13:00:00,L,TAM,Philadelphia Eagles,22.464611,23.050514
+2024,5.0,Thu,2024-10-03 20:15:00,L,TAM,Atlanta Falcons,21.800047,23.607323
+2024,6.0,Sun,2024-10-13 13:00:00,W,TAM,New Orleans Saints,21.538279,20.581059
+2024,7.0,Mon,2024-10-21 20:15:00,L,TAM,Baltimore Ravens,24.017342,24.329395
+2024,8.0,Sun,2024-10-27 13:00:00,W,TAM,Atlanta Falcons,21.951538,21.890835
+2024,9.0,Mon,2024-11-04 20:15:00,L,TAM,Kansas City Chiefs,21.549765,23.027517
+2024,10.0,Sun,2024-11-10 13:00:00,L,TAM,San Francisco 49ers,23.325283,25.089142
+2024,12.0,Sun,2024-11-24 13:00:00,L,TAM,New York Giants,20.449543,20.883055
+2024,13.0,Sun,2024-12-01 16:05:00,W,TAM,Carolina Panthers,22.903229,22.095724
+2024,14.0,Sun,2024-12-08 13:00:00,W,TAM,Las Vegas Raiders,24.018185,22.009058
+2024,15.0,Sun,2024-12-15 16:25:00,W,TAM,Los Angeles Chargers,24.609825,21.570396
+2024,16.0,Sun,2024-12-22 20:20:00,W,TAM,Dallas Cowboys,23.820562,22.450056
+2024,17.0,Sun,2024-12-29 13:00:00,W,TAM,Carolina Panthers,25.333532,19.523819
+2024,1.0,Sun,2024-09-08 16:25:00,W,WAS,Tampa Bay Buccaneers,24.757105,22.779589
+2024,2.0,Sun,2024-09-15 13:00:00,W,WAS,New York Giants,24.335268,22.928205
+2024,3.0,Mon,2024-09-23 20:15:00,L,WAS,Cincinnati Bengals,21.39719,21.755867
+2024,4.0,Sun,2024-09-29 16:05:00,W,WAS,Arizona Cardinals,23.228598,23.206406
+2024,5.0,Sun,2024-10-06 13:00:00,W,WAS,Cleveland Browns,24.831305,21.13845
+2024,6.0,Sun,2024-10-13 13:00:00,L,WAS,Baltimore Ravens,24.770294,25.41816
+2024,7.0,Sun,2024-10-20 16:05:00,W,WAS,Carolina Panthers,25.847948,20.650335
+2024,8.0,Sun,2024-10-27 16:25:00,W,WAS,Chicago Bears,23.59159,22.803862
+2024,9.0,Sun,2024-11-03 13:00:00,W,WAS,New York Giants,23.38376,21.000223
+2024,10.0,Sun,2024-11-10 13:00:00,W,WAS,Pittsburgh Steelers,25.252031,22.483028
+2024,11.0,Thu,2024-11-14 20:15:00,L,WAS,Philadelphia Eagles,21.013079,26.20814
+2024,12.0,Sun,2024-11-24 13:00:00,W,WAS,Dallas Cowboys,22.930717,20.796335
+2024,13.0,Sun,2024-12-01 13:00:00,W,WAS,Tennessee Titans,21.972794,20.701344
+2024,15.0,Sun,2024-12-15 13:00:00,W,WAS,New Orleans Saints,23.603216,22.338507
+2024,16.0,Sun,2024-12-22 13:00:00,W,WAS,Philadelphia Eagles,22.722216,20.549519
+2024,17.0,Sun,2024-12-29 20:20:00,W,WAS,Atlanta Falcons,24.266092,21.183777
