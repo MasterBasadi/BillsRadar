@@ -9,9 +9,11 @@
 
 from sklearn.multioutput import MultiOutputRegressor
 from xgboost import XGBRegressor
+from datetime import datetime
 import pandas as pd
 import numpy as np
 import warnings
+import pytz
 import os
 
 map_values = { ## normalizing names to maintain name consistency
@@ -32,7 +34,7 @@ numeric_cols = [ ## convert obvious numeric columns
     "expected_points_offense","expected_points_defense","expected_points_special_teams","season"
 ]
 
-cols = [ ## stats to take rolling avg for as well as pd fprmatting
+cols = [ ## stats to take
     "team_score","opponent_score","offense_first_downs","offense_total_yards","offense_passing_yards",
     "offense_rushing_yards","offense_turnovers","defense_first_downs_allowed","defense_total_yards_allowed",
     "defense_passing_yards_allowed","defense_rushing_yards_allowed","defense_turnovers_forced",
@@ -42,17 +44,19 @@ cols = [ ## stats to take rolling avg for as well as pd fprmatting
 class MissingDict(dict): ## renaming abbreviations to full team names ex. Buff -> Buffalo Bills
     __missing__ = lambda self, key: key
 
-def rolling_average(group, cols, new_cols, league_means=None):
+def rolling_average(group, cols, rolling_cols, league_means=None):
     grp = group.sort_values("kickoff_at").copy() ## prior-only features (leak-free
     past3 = grp[cols].rolling(3, min_periods=1).mean().shift(1) ## 3-game rolling mean, shifted(1)
     team_prior = grp[cols].expanding(min_periods=1).mean().shift(1) ## expanding team mean, shifted(1)
     tmp = past3.fillna(team_prior)
     if league_means is not None: ## fall back to TRAIN league means if still NA
         tmp = tmp.fillna(value=league_means)
-    grp[new_cols] = tmp.values
+    grp[rolling_cols] = tmp.values
     return grp
 
 def make_predictions(data: pd.DataFrame, predictors, targets):
+    # eastern = pytz.timezone("America/New_York")
+    # cut = pd.Timestamp(datetime.now(eastern).date()) ## define train cut so league means from TRAIN ONLY
     cut = pd.Timestamp("2024-09-07")
     train = data[data["kickoff_at"] <= cut].copy() ## training cutoff
     test  = data[data["kickoff_at"] >  cut].copy() ## testing cutoff
@@ -107,19 +111,21 @@ def main():
     matches["hour"] = matches["kickoff_at"].dt.hour ## get hour of matches as an int
     matches["target"] = (matches["result"] == "W").astype("int") ## the target to predict whether the team will win or not ex. w = 1, l = 0
 
-    cut = pd.Timestamp("2024-09-07") ## define train cut so league means from TRAIN ONLY
+    # eastern = pytz.timezone("America/New_York")
+    # cut = pd.Timestamp(datetime.now(eastern).date()) ## define train cut so league means from TRAIN ONLY
+    cut = pd.Timestamp("2024-09-07")
     train_idx = matches["kickoff_at"] <= cut
     league_means = matches.loc[train_idx, cols].mean(numeric_only=True).fillna(0.0)
 
-    new_cols = [f"{c}_rolling" for c in cols] ## make the new col names
-    matches_rolling = (matches.groupby("team_key", group_keys=False).apply(lambda t: rolling_average(t, cols, new_cols, league_means=league_means)).reset_index(drop=True)) ## keep your existing per-team prior-only rollups
+    rolling_cols = [f"{c}_rolling" for c in cols] ## make the new col names
+    matches_rolling = (matches.groupby("team_key", group_keys=False).apply(lambda t: rolling_average(t, cols, rolling_cols, league_means=league_means)).reset_index(drop=True)) ## keep your existing per-team prior-only rollups
 
     opp_suffix = "_opp" ## opponent form
-    new_cols = [f"{c}_rolling" for c in cols]
+    rolling_cols = [f"{c}_rolling" for c in cols]
     opp_view = (matches_rolling ## build opp lookup from the SAME frame using normalized keys
         .sort_values(["kickoff_at", "game_key", "team_key"]).drop_duplicates(subset=["game_key", "team_key"], keep="last")
-        [["game_key", "team_key"] + new_cols]
-        .rename(columns={"team_key": "opponent_key", **{c: c + opp_suffix for c in new_cols}}).drop_duplicates(subset=["game_key", "opponent_key"], keep="last")
+        [["game_key", "team_key"] + rolling_cols]
+        .rename(columns={"team_key": "opponent_key", **{c: c + opp_suffix for c in rolling_cols}}).drop_duplicates(subset=["game_key", "opponent_key"], keep="last")
     )
     ## opp rolling
     matches_rolling = matches_rolling.merge(opp_view, on=["game_key", "opponent_key"], how="left", validate="many_to_one")
@@ -138,11 +144,10 @@ def main():
     rest_predictors = ["rest_days", "rest_days_opp"]
 
     base_predictors = ["home_away_code","opp_code","day_code","hour"] ## predictors now include opponent rolling cols too
-    predictors = base_predictors + new_cols + [c + opp_suffix for c in new_cols] + rest_predictors
-    targets = ["team_score","opponent_score"]
-
+    predictors = base_predictors + rolling_cols + [c + opp_suffix for c in rolling_cols] + rest_predictors
+    targets = cols ## the columns to be predicted by the XGB model
     out, acc = make_predictions(matches_rolling, predictors, targets) ## run the XGB model
-    print("Derived win accuracy from score preds:", f"{acc:.0%}" if acc==acc else "nan") ## show accuracy results
+    print("Derived win accuracy from score preds:", f"{acc:.0%}") ## show accuracy results
 
     mapping = MissingDict(**map_values) ## map cols for pd
     out["team_full"] = out["team"].map(mapping)
@@ -151,7 +156,8 @@ def main():
     out["day"] = out["kickoff_at"].dt.day_name().str[:3]
     out["pred_result"] = (out["pred_team_score"] > out["pred_opponent_score"]).map({True:"W", False:"L"})
 
-    final_cols = ["season", "week", "day", "kickoff_at", "pred_result", "team", "opponent", "pred_team_score", "pred_opponent_score"] ## the cols being shown in the final .csv
+    pred_cols = [f"pred_{t}" for t in targets] ## the cols of the stats that were predicted
+    final_cols = ["season", "week", "day", "kickoff_at", "pred_result", "team", "opponent", "home_away"] + pred_cols ## the cols being shown in the final .csv including game info and predicted stats
     team_predictions = (out[final_cols].rename(columns={"team_full":"team","opponent_full":"opponent"}).sort_values(["team","season","week","kickoff_at"]).reset_index(drop=True))
 
     os.makedirs("out", exist_ok=True) ## export .csv

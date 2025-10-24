@@ -96,6 +96,6 @@ if all_matches:  ## concatenate the DataFrames
     match_df = match_df.rename(columns=column_mapping)  ## apply the mapping
 
     os.makedirs("data", exist_ok=True)
-    match_df.to_csv("data/2021_2024_matches.csv", index=False)  ## export to csv file without index column
+    match_df.to_csv("data/2021_2025_matches.csv", index=False)  ## export to csv file without index column
 
 ## inspired by DataQuest tutorial
